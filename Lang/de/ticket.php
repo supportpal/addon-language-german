@@ -40,8 +40,6 @@ return array(
     "recent_tickets"            => "kürzlich eingereichte Tickets",
     "last_message_text"         => "Letzte Nachricht",
 
-    "set_due_time"              => "Fertigstellungsdatum eintragen",
-
     "settings"                  => "Ticketeinstellungen",
 
     "priority"                  => "Priorität|Prioritäten",
@@ -160,7 +158,6 @@ return array(
     "allowed_files"             => "Erlaubte Dateitypen als Anhang",
 
     // Drafts
-    "also_viewing"              => "<strong>:name</strong> betrachtet auch das Tiket.",
     "draft_saved"               => "Entwurf gespeichet um :time",
     "save_draft"                => "Speicher Entwurf",
     "discard_draft"             => "Lösche Entwurf",
@@ -188,10 +185,6 @@ return array(
     "sla_plan"                  => "SLA Plan|SLA Pläne",
     "specific_schedule"         => "Speizifische Zeitpläne",
     "calendar_hours_24"         => "Kalenderstunden (24 Stunden)",
-    "resolution_time"           => "Lösungszeiten",
-    "resolution_time_desc"      => "Setzten Zeiten in denen das Tiket beantwortet sein muss nach Priorität. Die Zeit wird nur während der Geschäftszeiten gezählt anhand des Zeitplans, Dezimalwerte könen benutzt werden.",
-    "reply_within"              => "Antworten bis",
-    "resolve_within"            => "Lösen bis",
     "plan"                      => "Plan",
     "sla_condition"             => "SLA Kriterien",
     "sla_condition_desc"        => "Kriterien an das Ticket für das automatisierte zuweisen einer SLA. Wenn mehrere SLAs zutreffen wird die erste zugwiesen. Die Reihenfolge der SLAs kann beinflusst werden.",
@@ -244,7 +237,6 @@ return array(
     "ticket_notes_top"          => "Nur oben",
     "ticket_notes_messages"     => "Nur in den Nachrichten",
 
-    "captcha_desc"              => "Wann soll ein Captcha beim eröffnen von Tickets abgefragt werden.",
     "unregistered_only"         => "Nur unregistrierten Benutzern",
 
     "allow_unauth_users"        => "Erlaube anonyme Benutzer",
@@ -259,7 +251,6 @@ return array(
     // Email Channel Settings
     "default_priority"          => "Standard Priorität",
     "default_priority_desc"     => "Priorität die allen Tickets über diesen Kanal zugewiesen wird.",
-    "verbose_email_log"         => "Ausführliches Email Log",
 
     "last_reply"                => "Letzte Antwort",
     "opened_at"                 => "geöffnet am",
@@ -276,7 +267,6 @@ return array(
     "add_tag"                   => "Füge Tag hinzu",
 
     "unlock"                    => "Entsperren",
-    "merge"                     => "Zusammenführen",
     "merged"                    => "Zusammengeführt",
     "unmerge"                   => "Trennen",
     "close_and_lock"            => "Schließen und Sperren",
@@ -401,7 +391,6 @@ return array(
     "email_user_frontend"       => "Schicke ein Email an Benutzer wenn das Ticket über den Frontend eröffnet wurde",
     "email_user_frontend_desc"  => "Diese Option steuert ob er ein Mail an sich selbst bekommt wenn er ein Ticket über den Frontend eröffnet.",
     "department_template_disabled" => "Die relevante Emailvorlage der Abteilung ist deaktiviert, deshalb kann kein Email geschickt werden.",
-    "verbose_email_log_desc"    => "Soll das Emails auslesen protokolliert werden. Empfohlen ist es deakitiviert zu lassen und nur auf Anweisung des Supports zu aktivieren. Logs werden 5 Tage lange gespeichert danach gelöscht.",
 
     /*
      * 2.2.0
@@ -421,7 +410,6 @@ return array(
      */
     "registered_users_desc"     => "Akitivieren um Abteilung nur angemeldeten Benutzern anzuzeigen und um Emails nur von aktiv registrierten Adressen zu akzeptieren. Wenn aktiv werden Emails von nicht registrierten Adressen mit einer Antwort abgelehnt, um das Email zu ändern oder zudeaktivieren sehen sie bitte  'Nur Registrierte Benutzer' Vorlagen option unten.",
     "form_fields_desc"          => "Wenn sie mehr Informationen vom Benutzer einsammeln möchten können sie das Formular um benutzerdefinierte Felder erweitern. Der Feldtyp ist nicht mehr änderbar solbald ein Benutzer das Formular benutzt hat.",
-    "feedback_ratings"          => "Kundenzufriedenheits Bewertung (beiflusst ihre Kundenzufriedenheitspunkte)",
     "email_and_other_accounts"  => "Email oder andere Kanal Konten",
     "delete_message"            => "Lösche Nachricht",
     "linked_tickets"            => "referenzierte Tickets",
@@ -454,7 +442,6 @@ return array(
     "select_a_department_email" => "Wähle eine Abteilungs Mail Adresse aus...",
     "record_public_desc"        => "Wechsle um die :record nur für sie zugänglich zu machen.",
     "record_group_desc"         => "Wenn sie die Sichtbarkeit von :record auf einen Operator Gruppe einschränken wollen. Leer lassen damit alle Operateure sie sehen.",
-    "ticket_format_desc"        => "Kann alphanumerische und Sonderzeichen beinhalten <code>-_.+!*,</code><br />Auch folgende Variablen: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters <br />Die PHP Funktion <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Datum</a> Parameter mit dem Prefix % Y,y,m,d,j,g,G,h,H,i,s",
 
     /*
      * 2.4.0
@@ -507,7 +494,6 @@ return array(
      * 3.0.0
      */
     "merge_tickets_into"        => "Wähle das Ziel Ticket für die Zusammenführung",
-    "search_number_or_subject"  => "Such das Ticket nach Nummer oder Betreff",
     "im_not_sure"               => "Ich bin nicht sicher",
     "auto_reply_detected"       => "Automatische Antwort wurde erkannt - Es werden keinen Informationen an den/die Benutzer gesendet.",
     "cc_desc"                   => "Sie können einen Blindempfänger hinzufügen durch Eingabe der Mail Adresse.",
@@ -544,5 +530,35 @@ return array(
      */
     "on_behalf_of"              => "Created on behalf of",
     "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
+
+    /*
+     * 4.1.0
+     */
+    "ticket_format_desc"        => "Kann alphanumerische und Sonderzeichen beinhalten <code>-_.+!*,</code><br />Auch folgende Variablen: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters <br />Die PHP Funktion <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Datum</a> Parameter mit dem Prefix % Y,y,m,d,j,g,G,h,H,i,s",
+    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
+    "check_spam"                => "Check Spam Rules",
+    "check_spam_api_desc"       => "Block messages which match spam rules.",
+    "enable_throttling"         => "Enable Throttling",
+    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
+    "captcha_desc"              => "Wann soll ein Captcha beim eröffnen von Tickets abgefragt werden.",
+
+    /*
+     * 5.0.0
+     */
+    "also_viewing"              => "<strong>:name</strong> betrachtet auch das Tiket.",
+    "mark_as_read"              => "Mark as Read",
+    "mark_as_unread"            => "Mark as Unread",
+    "sla_targets"               => "SLA Target|SLA Targets",
+    "sla_targets_desc"          => "Set target times that a ticket must be responded to by and resolved by per priority. The time will be counted only during business hours based on the schedule(s) chosen, decimal values can be used. Leave value blank to not set a target for that priority.",
+    "first_reply_time"          => "First Reply Time",
+    "next_reply_time"           => "Next Reply Time",
+    "resolution_time"           => "Lösungszeiten",
+    "reply_due_in"              => "Reply due :time",
+    "resolve_in"                => "Resolve :time",
+    "paused_ago"                => "Paused :time",
+    "reply_due_time"            => "Reply due time",
+    "resolution_due_time"       => "Resolution due time",
+    "set_reply_due_time"        => "Set reply due time",
+    "set_resolution_due_time"   => "Set resolution due time",
 
 );

@@ -150,7 +150,6 @@ return array(
      */
     "type_protected_desc"       => "aktivieren um den Inhalt nur angemeldeten Benutzern dazurstellen.",
     "article_feedback"          => "Artikel Feedback",
-    "thank_you_for_feedback"    => "Vielen Dank für ihr Feedback zu diesem Artikel.",
     "frontend_icon_desc"        => "Standard Icon für den Frontend. alternativ können sie ihr eigenes Icon zur Verfügung stellen:",
 
 );
