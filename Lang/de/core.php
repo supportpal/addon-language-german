@@ -6,7 +6,7 @@ return array(
     "product_name"              => "HelpDesk",
     "operator_panel"            => "Mitarbeiter-Bereich",
     "welcome"                   => "Willkommen im HelpDesk",
-    "welcome_desc"              => "You've made a smart decision. Click start to begin a quick product tour of our settings and features.",
+    "welcome_desc"              => "Das war eine smarte Entscheidung. Click auf Start und beginne die Einführung über unsere Einstellungen und Funktionen.",
 
     // Dashboard
     "submit_ticket"             => "Ticket erstellen",
@@ -468,28 +468,28 @@ return array(
     /*
      * 3.4.0
      */
-    "brand_name"                => "Brand Name",
-    "brand_name_desc"           => "Your brand name is used for all correspondence with users.",
-    "supportpal_announcements"  => "SupportPal Announcements",
-    "add_selectize"             => "Add <strong>:item</strong>...",
-    "general_settings"          => "Configure general settings",
-    "configure_brand"           => "Configure brand",
-    "configure_department"      => "Configure department",
-    "setup_cron"                => "Set-up cron job",
+    "brand_name"                => "Markenname",
+    "brand_name_desc"           => "Ihr Markennname für die Kommunikation mit allen Benutzern benutzt.",
+    "supportpal_announcements"  => "SupportPal Ankündigungen",
+    "add_selectize"             => "<strong>:item</strong> Hinzufügen",
+    "general_settings"          => "Generelle Einstellungen konfigurieren",
+    "configure_brand"           => "Marke onfigurieren",
+    "configure_department"      => "Abteilung konfigurieren",
+    "setup_cron"                => "Zeitgesteuerten Job einrichten (cron)",
     "channel_settings"          => "Update ticket channel settings",
-    "add_user"                  => "Add a new user",
-    "open_ticket"               => "Open a new ticket",
-    "reply_ticket"              => "Reply to ticket",
+    "add_user"                  => "Neuen Benutzer hinzufügen",
+    "open_ticket"               => "Neues Ticket eröffnen",
+    "reply_ticket"              => "Auf Ticket antworten",
     "new_version_available"     => "New Version Available",
     "new_version_desc"          => "A new version of SupportPal has been released, we always recommend to keep your installation up to date.<div class='description'>Acknowledging this notice will hide it until a newer version is released.</div>",
-    "acknowledge"               => "Acknowledge",
+    "acknowledge"               => "Zur Kenntnis genommen",
     "running_latest_version"    => "You are running the latest version.",
     "running_prerelease"        => "You are running a prerelease version.",
 
     /*
      * 3.6.0
      */
-    "results_per_page"          => "Results Per Page",
+    "results_per_page"          => "Ergebnis pro Seite",
     "class_name"                => "Class Name",
     "possible_permission_issue" => "You are running the command as \":cli_user\", while \":path\" is owned by \":path_user\", this can lead to file permission issues.",
     "system_update"             => "System Update",
