@@ -9,8 +9,6 @@ return array(
 
     "save_order"            => "Attempting to save the updated order of the items",
 
-    "show_all_results"      => "Show all results &raquo;",
-
     "are_you_sure"          => "Sind Sie sicher?",
     "yes_im_sure"           => "Ja, ich bin mir sicher!",
 
@@ -85,7 +83,6 @@ return array(
 
     "missing_extension"     => "Fehlende Erweiterung",
     "php_ldap_missing"      => "Die php-ldap Erweiterung wird für LDAP-Authentifizierung benötigt.",
-    "php_imap_missing"      => "Die php-imap Erweiterung wird für den Download von E-Mailis benötigt.",
 
     /*
      * 2.0.3
@@ -153,5 +150,22 @@ return array(
      */
     "popup_blocked"         => "Den Browser blockiert Popups. Bitte erlauben sie Popups um das Vorschau Feature nutzen zu können.",
     "error_editing_message" => "There was an error while trying to edit this message.",
+
+    /*
+     * 4.1.1
+     */
+    "brand_not_enabled"     => "This action cannot be performed as the brand is not enabled.",
+    "cannot_reply_to_internal" => "A user cannot reply to an internal ticket.",
+
+    /*
+     * 4.3.0
+     */
+    "show_all_results"      => "Show all results &raquo;",
+
+    /*
+     * 5.0.0
+     */
+    "lock_timeout"          => "Lock Timeout",
+    "lock_timeout_desc"     => "The server is currently busy processing other requests. Please try again.",
 
 );
