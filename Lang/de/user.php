@@ -23,7 +23,6 @@ return array(
     "transfer_ownership_desc"       => "As the current owner of the organisation, you cannot be removed as a manager and only you can delete the organisation. You may transfer the ownership of the organisation to someone else, be aware that this action cannot be reversed.",
     "transfer_ownership_operator"   => "Only the owner can delete the organisation and cannot be removed from it. Use this option to change the ownership to another user in the organisation.",
     "start_typing_name"             => "Tippen Sie einen Namen ein...",
-    "organisation_add_user"         => "Benutzer zu Firma hinzufügen",
     "organisation_desc"             => "Each organisation can have <strong>managers</strong>, who can manage users and read and reply to other's tickets, and <strong>users</strong>, who can open tickets, but can't read or reply to other's tickets.",
     "organisation_operator_desc"    => "Add existing users to this organisation by clicking \"Add User\" and searching for their name, note that adding a user will remove any links they have with another organisation.",
     "organisation_user_desc"        => "<strong>Manager</strong> - Can manage other users and view &amp; reply to other user's tickets.<br /><strong>User</strong> - Can only open tickets on behalf of organisation and reply to own tickets.",
@@ -56,9 +55,6 @@ return array(
     "country"                       => "Land",
     "avatar"                        => "Profilbild",
     "confirm_password"              => "Passwort bestätigen",
-
-    "confirmed"                     => "Bestätigt",
-    "unconfirmed"                   => "Nicht bestätigt",
 
     "group"                         => "Benutzergruppe|Benutzergruppen",
     "group_members"                 => "Gruppenmitglieder",
@@ -204,11 +200,6 @@ return array(
     "op_settings_individual_dept"   => "Individuell zugewiesen:",
     "op_settings_individual_dept_desc" => "Diese Abteilungen sind zusätzlich zu den durch Gruppen zugewiesenen Abteilungen.",
     "also_registered_other_brand"   => "Dieser Benuter ist auch in den Marke :brands registriert.|Dieser Benutzer ist auch in den Marken :brands registriert.",
-    "signature"                     => "Signatur|Signaturen",
-    "signature_desc"                => "Erstelle eine persönliche Ticket Signatur, mit der Option sie anhand der Marke des Tickets anzupassen. Die Standardsignatur wird benutzt wenn keine spezifische Signatur für eine Abteilung oder Marke existiert.",
-    "operator_signature"            => "Operator Signatur|Operator Signaturen",
-    "ticket_signature_desc"         => "Setzte die Standard Signatur für den Operator.",
-    "operator_signature_desc"       => "Weitere Signaturen für Abteilungen oder Marken können in  <a href=':route' target='_blank'>Operator Signaturen</a> gesetzt werden.",
     "view_organisation"             => "Zeige die Organisation",
     "new_owner"                     => "Neuer Besitzer",
     "operator_role"                 => "Operator Rolle|Operator Rollen",
@@ -259,7 +250,6 @@ return array(
     "unlink_account"                => "Verknüpfung :record vom Konten entfernen",
     "unlink_account_warning"        => "Nach dem entfernen der Verknügung können sie diesen 'Social Login' nicht mehr für die Anmeldung nutzen.",
     "failed_login"                  => "fehlgeschlagner Login|fehlgeschlagene Logins",
-    "resend_confirmation"           => "<strong><a href=':link'>Click hier</a></strong> um ein neues Bestätigungsemail zu senden.",
 
     /*
      * 2.4.0
@@ -276,30 +266,15 @@ return array(
     /*
      * 2.5.0
      */
-    "organisation_domain_desc"      => "Geben sie jede Domäne ein die zur Organisation gehört. Benutzer deren Mailadresse mit der Domäne überinstimmt werden automatisch Mitglied der Organisation. Wir empfehlen den Zugehörigkeit des Benutzers zur Firma zu prüfen, und sicherzustellen dass die Email Adresse bestätigt wurde.",
-    "changing_email_desc"           => "Das ändern der Benutzer Email Adresse zwingt ihn dazu sie beim nächsten Login zu bestätigen.",
-    "unconfirmed_user_desc"         => "Benutzer hat die Email Adresse nicht bestätigt",
-    "unregistered_user_desc"        => "Dieser Benutzer wurde automatisch erstellt und besitzt kein Passwort. Sie können unten ein Bestätigungs/Willkommens Mail auslösen damit der Benutzer die Einrichtung seines Kontos vervollständigt.",
-    "send_confirmation_email"       => "Bestätigungsmail schicken",
-    "mark_as_confirmed"             => "Markiere als bestätigt",
-    "password_reset_already"        => "Sie haben bereits den Besitz dieser Email Adresse bestätigt, fahren sie mit dem Login fort.",
-    "unconfirmed_account"           => "Bitte überprüfen sie Ihren Posteingang und den Spam Ordner um Ihre Emailadrese zu bestätigen",
     "success_register_desc"         => "Vielen Dank für das registrieren ihres Kontos. Bitte überpüfen sie Ihren Posteingang oder Spam Ordner um das Konto fertigzustellen.",
-    "resend_confirmation_sent"      => "Ein neues Bestätigungsmail wurde geschickt, und sollte in wenigen Minuten ankommen.",
-    "register_confirm_desc"         => "Vielen Dank für das bestätigen Ihrer Mail Adresse, bitte geben sie unten ihr Passwort ein um Ihr Konto fertigzustellen.",
-    "thank_you_confirm"             => "Thank you for confirming ownership of your email address.",
     "use_gravatar"                  => "Benutze Gravatar",
     "use_gravatar_desc"             => "Gravatar ist ein externer Dienst, sie beschreiben sich so: Ihr Gravatar ist ein Bild, das sie von Website zu Website begleitet. Es erscheint neben ihrem Namen, wenn sie Kommentare oder Beiträge in Blogs verfassen. Avatare helfen dabei, ihre Beiträge in Blogs und Webforen zu identifizieren, warum also nicht auf jeder Website?.",
 
     /*
      * 2.6.0
      */
-    "updating_email_address"        => "Um das ändern der Email Adresse abzuschließen muss sie bestätigt werden. Es wurde ein Mail an :email geschickt, folgen sie den Anweisungen im Mail um die Adresse zu bestätigen.",
-    "confirmation"                  => "Bestätigung",
-    "confirmation_email_in_use"     => "Die Email Adresse wird bereits in einem anderen Konto verwendet.",
     "continue_to_login"             => "Folgen sie dem Link um sich <a href=':route'>anzumelden</a>.",
     "reset_request_desc"            => "Falls ein passendes Konteo gefunden wurde, ist ein Email mit einem Link zum Passwortzurücksetzen geschickt worden.",
-    "password_reset_error"          => "Der Link ist abgelaufen. Falls der Link aus irgendwelchen nicht funktioniert, fordern sie bitte in neues Mail an.",
 
     /*
      * 3.0.0
@@ -339,7 +314,7 @@ return array(
     "logged_in"                     => "Angemeldet",
     "revoke_session_desc"           => "Das löschen der Sitzung wird auch alle 'erinnere dich an mich tokens löschen'.",
 
-    /**
+    /*
      * 4.0.0
      */
     "verify_phone_number"           => "Bestätige die Telefonnummer",
@@ -348,5 +323,54 @@ return array(
     "verify_phone_code_send_error"  => "Fehler beim Senden des Bestätigungscodes. Bitte versuchen sie es später wieder.",
     "verify_phone_code_error"       => "Das Prüfen des Bestätigungscodes schlug fehl.",
     "logged_in_as"                  => "Angemeldet als :name",
+
+    /*
+     * 4.1.0
+     */
+    "merge_users"                   => "Merge Users",
+    "merge_user_into"               => "Select user to merge into",
+    "merge_organisations"           => "Merge Organisations",
+    "merge_organisation_into"       => "Select organisation to merge into",
+    "search_for_organisation"       => "Search for organisation...",
+
+    /*
+     * 4.2.0
+     */
+    "reply_template"                => "Reply Template|Reply Templates",
+    "reply_template_desc"           => "Set a personal reply template that prefills the textarea when starting to compose a reply, with the option to customise based on the brand/department of the ticket. The default reply template is used when a reply template for a specific department and/or brand cannot be found.",
+    "operator_reply_template"       => "Operator Reply Template|Operator Reply Templates",
+    "ticket_reply_template_desc"    => "Set the operator's default ticket reply template.",
+    "operator_reply_template_desc"  => "Further reply templates for specific departments and/or brands can be set in the <a href=':route' target='_blank'>Operator Reply Templates</a> section.",
+
+    /*
+     * 5.0.0
+     */
+    "verified"                      => "Verified",
+    "unverified"                    => "Unverified",
+    "unverified_email_desc"         => "User has not verified ownership of this email address.",
+    "unverified_account"            => "Please check your email to verify ownership of this email address.",
+    "changing_email_desc"           => "Das ändern der Benutzer Email Adresse zwingt ihn dazu sie beim nächsten Login zu bestätigen.",
+    "unregistered_user_desc"        => "Dieser Benutzer wurde automatisch erstellt und besitzt kein Passwort. Sie können unten ein Bestätigungs/Willkommens Mail auslösen damit der Benutzer die Einrichtung seines Kontos vervollständigt.",
+    "send_verification_email"       => "Send Verification Email",
+    "mark_as_verified"              => "Mark as Verified",
+    "password_reset_already"        => "Sie haben bereits den Besitz dieser Email Adresse bestätigt, fahren sie mit dem Login fort.",
+    "verification_email_resent"     => "A new verification email has been sent and should arrive in a few minutes.",
+    "verified_set_password_desc"    => "Thank you for verifying ownership of your email, please enter a password below to finish your account set up.",
+    "thank_you_for_verifying_email" => "Thank you for verifying ownership of your email address.",
+    "organisation_domain_desc"      => "Geben sie jede Domäne ein die zur Organisation gehört. Benutzer deren Mailadresse mit der Domäne überinstimmt werden automatisch Mitglied der Organisation. Wir empfehlen den Zugehörigkeit des Benutzers zur Firma zu prüfen, und sicherzustellen dass die Email Adresse bestätigt wurde.",
+    "resend_verification_email"     => "Resend Verification Email",
+    "updating_email_address"        => "Um das ändern der Email Adresse abzuschließen muss sie bestätigt werden. Es wurde ein Mail an :email geschickt, folgen sie den Anweisungen im Mail um die Adresse zu bestätigen.",
+    "email_verification"            => "Email Verification",
+    "email_verification_already_in_use" => "The email address is already in use by another account.",
+    "verification_link_expired"     => "The verification link may have expired. If your link isn't working for any reason, please request a new one.",
+    "user_invited_to_organisation"  => "The user has been invited to the organisation by email, they must click the link and set up a password to complete their account setup.",
+    "invite_user"                   => "Invite User",
+    "organisation_invite_user"      => "Invite user to organisation",
+    "user_already_in_organisation"  => "The user is already part of an organisation.",
+    "invitations"                   => "Invitation|Invitations",
+    "invite_exists"                 => "The user has already been invited.",
+    "success_join"                  => "You are now a member of the organisation :name.",
+    "error_join"                    => "The invitation code could not be found, or has expired.",
+    "verify_to_view_tickets"        => "Please verify all additional email addresses or remove unverified email addresses under your account profile.",
 
 );
