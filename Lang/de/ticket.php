@@ -507,16 +507,16 @@ return array(
      * 3.3.0
      */
     "email_setup_manually"      => "Set Up Manually",
-    "unresolved"                => "Unresolved",
-    "resolved"                  => "Resolved",
+    "unresolved"                => "Ungelöst",
+    "resolved"                  => "Gelöst",
     "manage_oauth_options"      => "To add or manage OAuth options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
 
     /*
      * 3.4.0
      */
-    "feedback_saved"            => "We've saved your feedback.",
-    "how_was_the_help"          => "How was the help you received?",
-    "update_feedback"           => "Update Feedback",
+    "feedback_saved"            => "Ihre Rückmeldung wurde gespeichert.",
+    "how_was_the_help"          => "Wie gut wurden Ihnen geholfen?",
+    "update_feedback"           => "Rückmeldung aktualisieren",
     "verify_user"               => "Please verify the authenticity of the user.",
     "web_channel_name"          => "Web",
     "web_channel_desc"          => "Tickets opened through the frontend interface for users or operator panel for operators.",
@@ -528,8 +528,8 @@ return array(
     /*
      * 4.0.0
      */
-    "on_behalf_of"              => "Created on behalf of",
-    "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
+    "on_behalf_of"              => "Erstellt im Namen von ",
+    "reply_canned_be_posted"    => "Es ist jetzt nich möglich auf dieses Ticket zu Antworten; Der Kanal oder das Kanals Konto sind deaktiviert.",
 
     /*
      * 4.1.0

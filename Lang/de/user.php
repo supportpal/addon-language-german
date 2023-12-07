@@ -295,34 +295,34 @@ return array(
     /*
      * 3.4.0
      */
-    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
-    "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled.",
+    "two_fa_verify_desc"            => "Installieren sie eine der folgenden Applikationen und scannen sie damit den QR Code oder geben sie den geheimen Schlüssel ein. Das richtet ihr Gerät für dieses Konto ein, dann können sie das Konto sehen und es generiert einen 6 stelligen Code den sie eingeben müssen um die Einrichtung abzuschließen. Klicken auf Prüfen bevor der Code abläuft. Die Uhrzeit des Servers muss mit NTP sychronisiert sein damit das funktioniert.",
+    "two_fa_successfully_enabled"   => "Zwei Faktor Authentifizierung (2FA) wurde erfolgreich eingerichtet und aktiviert.",
 
     /*
      * 3.5.0
      */
-    "phone_number"                  => "Phone Number|Phone Numbers",
+    "phone_number"                  => "Telefonnummer|Telefonnummern",
 
     /*
      * 3.6.0
      */
-    "security_settings"             => "Security Settings",
-    "security_settings_desc"        => "Update your password, enable 2FA and manage other security related settings for your account.",
-    "active_sessions"               => "Active Sessions",
-    "active_sessions_desc"          => "This is a list of devices that have logged into your account, you may revoke any sessions that you do not recognise.",
-    "current_session"               => "Current Session",
-    "logged_in"                     => "Logged In",
-    "revoke_session_desc"           => "Revoking a session will log the device out of the operator panel. It will also revoke all remember me tokens for other devices.",
+    "security_settings"             => "Sicherheitseinstellungen",
+    "security_settings_desc"        => "Passwort änder, 2FA aktivieren und andere Sicherheitsrelevante Einstellungen für Ihr Konto.",
+    "active_sessions"               => "Aktive Sessions",
+    "active_sessions_desc"          => "Liste der Sitzungen mit Gerät auf denen sie angemeldet sind, sie können die Sitzungen löschen.",
+    "current_session"               => "Aktive Session",
+    "logged_in"                     => "Angemeldet",
+    "revoke_session_desc"           => "Das löschen der Sitzung wird auch alle 'erinnere dich an mich tokens löschen'.",
 
     /*
      * 4.0.0
      */
-    "verify_phone_number"           => "Verify Phone Number",
-    "verify_phone_method"           => "Select the method you wish to verify your phone number.",
-    "verify_phone_code_sent"        => "A verification code has been sent to your phone number, please enter this code below.",
-    "verify_phone_code_send_error"  => "An error occurred while sending the verification code. Please try again later.",
-    "verify_phone_code_error"       => "Code could not be verified.",
-    "logged_in_as"                  => "Logged in as :name",
+    "verify_phone_number"           => "Bestätige die Telefonnummer",
+    "verify_phone_method"           => "Wählen sie eine Methode um Ihre Telefonnummer zu bestätigen.",
+    "verify_phone_code_sent"        => "Ein Bestätigungscode wurde an Ihr Telefon gesendet, Geben sie ihn bitte unten ein.",
+    "verify_phone_code_send_error"  => "Fehler beim Senden des Bestätigungscodes. Bitte versuchen sie es später wieder.",
+    "verify_phone_code_error"       => "Das Prüfen des Bestätigungscodes schlug fehl.",
+    "logged_in_as"                  => "Angemeldet als :name",
 
     /*
      * 4.1.0

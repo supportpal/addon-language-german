@@ -73,8 +73,8 @@ return array(
     /*
      * 2.4.0
      */
-    "watching_operator"                 => "Watching operator",
-    "exact_search_quotes"               => "To do an exact search for the phrase, wrap it in quotes like \"my phrase\".",
+    "watching_operator"                 => "Beobachtende Operatoren",
+    "exact_search_quotes"               => "Eine exakte übereinstimmung er hält man mit Anführungszeichen: \"Suchbegriff\".",
 
     /*
      * 2.4.1
@@ -91,22 +91,22 @@ return array(
     /*
      * 3.3.0
      */
-    "user_has_organisation"             => "User has organisation",
+    "user_has_organisation"             => "Benutzer hat eine Organisation",
 
     /*
      * 3.5.0
      */
-    "user_phone_number"                 => "User phone number",
+    "user_phone_number"                 => "Benutzer Telefonnummer",
 
     /*
      * 3.7.0
      */
-    "user_organisation_access_level"    => "User organisation access level",
+    "user_organisation_access_level"    => "Benutzer Organisation Zugriffs Stufe",
 
     /*
      * 4.0.0
      */
-    "last_message_content_exc_notes"    => "Last message content (excluding notes)",
+    "last_message_content_exc_notes"    => "Inhalt der letzten Nachricht (ohne Notizen)",
 
     /*
      * 5.0.0

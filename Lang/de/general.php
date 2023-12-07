@@ -266,7 +266,7 @@ return array(
     /*
      * 2.3.0
      */
-    "regex"                     => "Regex Validation",
+    "regex"                     => "Regex Validierung",
     "check_all"                 => "Wähle alle aus",
     "uncheck_all"               => "Wähle alle ab",
     "after_and_including"       => "nach und einschließlich",
@@ -365,34 +365,34 @@ return array(
     /*
      * 3.3.0
      */
-    "authentication"            => "Authentication",
-    "manage_credentials"        => "Manage Credentials",
+    "authentication"            => "Authentifizierung",
+    "manage_credentials"        => "Credentials verwalten",
 
     /*
      * 3.4.0
      */
-    "select_a_date"             => "Select a date",
-    "select_values"             => "Select values",
-    "file"                      => "File",
+    "select_a_date"             => "Wähle ein Datum",
+    "select_values"             => "Wähle einen Wert",
+    "file"                      => "Datei",
 
     /*
      * 3.5.0
      */
-    "today"                     => "Today",
-    "yesterday"                 => "Yesterday",
-    "last_7_days"               => "Last 7 Days",
-    "last_30_days"              => "Last 30 Days",
-    "this_month"                => "This Month",
-    "last_month"                => "Last Month",
+    "today"                     => "Heute",
+    "yesterday"                 => "Gestern",
+    "last_7_days"               => "Letzte 7 Tage",
+    "last_30_days"              => "Letzte 30 Tage",
+    "this_month"                => "Dieser Monat",
+    "last_month"                => "Letzter Monat",
 
     /*
      * 3.6.0
      */
     "appearance"                => "Appearance",
-    "faster"                    => "Faster",
-    "slower"                    => "Slower",
-    "revoke"                    => "Revoke",
-    "configure"                 => "Configure",
+    "faster"                    => "Schneller",
+    "slower"                    => "Langsamer",
+    "revoke"                    => "Zurückziehen",
+    "configure"                 => "Konfigurieren",
 
     /*
      * 3.7.0
