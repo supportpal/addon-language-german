@@ -158,4 +158,11 @@ return array(
     "forwards"                          => "Forwards",
     "messages_by_users"                 => "Messages by Users",
 
+    /*
+     * 5.2.0
+     */
+    "times_canned_responses_used"       => "Total Times Canned Responses Used",
+    "total_tickets_canned_responses_used" => "Total Tickets with Canned Responses Used",
+    "operators_most_used_responses"     => "Operators with Most Canned Responses Used",
+
 );
