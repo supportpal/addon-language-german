@@ -133,7 +133,6 @@ return array(
     "two_fa_secret"                 => "2FA Geheimnis",
     "two_fa_secret_desc"            => "Pbitte speichern sie das 'Geheimins' an einem sicheren Ort, um bei einem Verlust den 2FA wiederherstellen zu können.",
     "display_notifications"         => "Benachrichtigungen deaktivieren",
-    "display_notifications_desc"    => "Das System benachtigt sie bei neuen Tickets, Antworten oder wenn sich andere Operateure anmelden während sie das Operator Panel offen haben. Sie können sich zwischen Desktop oder in Browser Notifications entscheiden oder ganz deaktivieren.",
     "desktop_notifications"         => "Desktop Benachrichtigungen",
     "browser_notifications"         => "Browser Benachrichtigungen",
 
@@ -372,5 +371,19 @@ return array(
     "success_join"                  => "You are now a member of the organisation :name.",
     "error_join"                    => "The invitation code could not be found, or has expired.",
     "verify_to_view_tickets"        => "Please verify all additional email addresses or remove unverified email addresses under your account profile.",
+
+    /*
+     * 5.2.3
+     */
+    "display_notifications_desc"    => "Das System benachtigt sie bei neuen Tickets, Antworten oder wenn sich andere Operateure anmelden während sie das Operator Panel offen haben. Sie können sich zwischen Desktop oder in Browser Notifications entscheiden oder ganz deaktivieren.",
+
+    /*
+     * 5.3.0
+     */
+    "email_verified"                => "Email Verified",
+    "registered_desc"               => "If the user has a password set and is able to login to the frontend.",
+    "new_operator_account_desc"     => "You can send a verification email to let the operator set up their own account or toggle to set a password for them below.",
+    "operator_set_password_desc"    => "Please enter a password below to finish setting up your operator account.",
+    "password_set_success"          => "Password set successfully!",
 
 );

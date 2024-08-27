@@ -173,7 +173,6 @@ return array(
     "schedule_task_cron"        => "Cron Job",
     "schedule_task_3"           => "Create a cron job similar to the example provided below on your server for the scheduled tasks to run automatically.",
     "ticket_channel_desc"       => "Ticket Channels are methods for creating tickets. They can be easily extended to include your own channels, for example tickets opened via Instagram.",
-    "ticket_channel_2"          => "We provide a number of default channels. You may wish to activate and configure the Facebook and Twitter channels to collect tickets generated via social media.",
     "user_desc"                 => "Users who interact with your system are displayed here. You can add, edit, and delete users as appropriate.",
     "organisation_desc"         => "Users can be assigned to organisations enabling them access to tickets opened by other users within their organisation.",
     "operator_desc"             => "Other members of staff can be added as operators here, along with managing which departments they are assigned to.",
@@ -332,7 +331,6 @@ return array(
     "reprocess_email_desc"      => "We recommend to review what originally blocked the email and make any necessary changes before attempting to reprocess.",
     "email_blocked_desc"        => "The email failed to send several times, it must now be manually sent.",
     "captcha_type"              => "Captcha Type",
-    "captcha_type_desc"         => "Select the Captcha to be used throughout the system. We recommend switching to Google reCAPTCHA, which requires additional configuration.",
     "default_captcha"           => "Default Captcha",
     "recaptcha_site_key"        => "Site Key",
     "recaptcha_secret_key"      => "Secret Key",
@@ -643,5 +641,45 @@ return array(
     "websockets_not_running"    => "Unable to connect to web socket server.",
     "search_driver_check"       => "Search Driver",
     "search_driver_not_working" => "The configured search driver is not working correctly.",
+
+    /*
+     * 5.2.0
+     */
+    "temporary_path"            => "Temporary Path",
+    "temporary_path_desc"       => "The temporary path is used to store files during the update. The system temporary path is used by default. The path must have at least 3GB of free space.",
+    "background_jobs_desc"      => "Below are a list of background jobs that have failed recently.",
+    "failed_jobs"               => "Failed Jobs",
+    "horizon_dashboard"         => "Horizon Dashboard",
+    "job"                       => "Job|Jobs",
+    "job_payload"               => "Job Payload",
+    "job_exception"             => "Job Exception",
+    "failed_at"                 => "Failed At",
+    "queue"                     => "Queue",
+    "exception"                 => "Exception",
+    "data"                      => "Data",
+    "failed_background_jobs"    => "One or more <a target='_blank' href=':link'>background jobs</a> have failed and require manual attention.",
+
+    /*
+     * 5.3.0
+     */
+    "ticket_channel_2"          => "We provide a number of default channels. You may wish to activate and configure the Facebook and Twitter channels to collect tickets generated via social media.",
+    "incoming_duplicate"        => "Incoming (Duplicate)",
+
+    /*
+     * 5.4.0
+     */
+    "email_method_overridden"   => "The email method has been overridden in the <a href=':link' target='_blank'>default brand settings</a>.",
+    "addon_not_found"           => "Add-on not found.",
+    "deactivating_addon"        => "Deactivating add-on...",
+    "addon_already_activated"   => "Add-on already activated.",
+    "addon_already_deactivated" => "Add-on already deactivated.",
+    "addon_cannot_deactivate"   => "Add-on cannot be deactivated.",
+    "addon_activation_failed"   => "Add-on activation failed, check the application log for more information.",
+    "addon_deactivation_failed" => "Add-on deactivation failed, check the application log for more information.",
+    "site_key"                  => "Site Key",
+    "secret_key"                => "Secret Key",
+    "turnstile_desc"            => "Please register a new Turnstile widget at <a target='_blank' href=\"https://developers.cloudflare.com/turnstile/get-started/\">Cloudflare</a>. Copy the site and secret key above.",
+    "hcaptcha_desc"             => "Please register at <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Copy the site and secret key above.",
+    "captcha_type_desc"         => "Select the Captcha to be used throughout the system. We recommend switching to Google reCAPTCHA, which requires additional configuration.",
 
 );
