@@ -151,5 +151,11 @@ return array(
     "type_protected_desc"       => "aktivieren um den Inhalt nur angemeldeten Benutzern dazurstellen.",
     "article_feedback"          => "Artikel Feedback",
     "frontend_icon_desc"        => "Standard Icon für den Frontend. alternativ können sie ihr eigenes Icon zur Verfügung stellen:",
+    "comment_deleted"           => "Comment deleted",
+
+    /*
+     * 5.3.0
+     */
+    "in_reply_to"               => "in reply to",
 
 );
