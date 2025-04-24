@@ -11,8 +11,8 @@ return array(
     "internal_ticket"                   => "internes Ticket",
     "involved_operator"                 => "beteiligter Mitarbeiter",
     "last_ticket_replier"               => "letzte Antwort von",
-    "ticket_channel"                    => "Kanal des Ticket",
-    "ticket_channel_account"            => "Account des Ticketkanals",
+    "ticket_channel"                    => "Kanal des Tickets",
+    "ticket_channel_account"            => "Konto des Ticketkanals",
     "ticket_created"                    => "Ticket erstellt",
     "ticket_department"                 => "Abteilung des Tickets",
     "ticket_due_time"                   => "Fertigstellung des Tickets",
@@ -117,5 +117,5 @@ return array(
     /*
      * 5.3.0
      */
-    "user_registered"                   => "User registered",
+    "user_registered"                   => "Benutzer registriert",
 );

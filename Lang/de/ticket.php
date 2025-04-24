@@ -545,7 +545,7 @@ return array(
     /*
      * 5.0.0
      */
-    "also_viewing"              => "<strong>:name</strong> betrachtet auch das Tiket.",
+    "also_viewing"              => "Betrachtet auch das Ticket:",
     "mark_as_read"              => "Mark as Read",
     "mark_as_unread"            => "Mark as Unread",
     "sla_targets"               => "SLA Target|SLA Targets",

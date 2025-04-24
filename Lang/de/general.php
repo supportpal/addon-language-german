@@ -205,7 +205,7 @@ return array(
     "total"                     => "Total",
     "disabled"                  => "deaktiviert",
     "not_set"                   => "nicht gesetzt",
-    "add_item"                  => "hinzufügen :item",
+    "add_item"                  => ":item hinzufügen",
     "edit_item"                 => "Edit :item",
     "any"                       => "jegliche",
     "module_generalsetting"     => ":module General Settings",
@@ -302,7 +302,7 @@ return array(
      * 2.5.0
      */
     "domain"                    => "Domain|Domains",
-    "move_to_trash"             => "verschiebe in Papierkorb",
+    "move_to_trash"             => "In Papierkorb verschieben",
     "trash"                     => "Papierkorb",
     "trash_desc"                => "Einträge die mehr als :number Tage im Papierkorb sind werden gelöscht.",
     "restore"                   => "Wiederherstellen",
