@@ -26,7 +26,6 @@ return array(
     /*
      * 2.2.0
      */
-    "close_and_lock_ticket"     => "Schließen und sperren des Tickets",
     "unlock_ticket"             => "Ticket entsperren",
     "update_sla_plan"           => "Aktualisiere SLA plan",
     "update_subject"            => "Aktualisiere Betreff",
@@ -82,5 +81,12 @@ return array(
     "clear_reply_due_time"      => "Antwortfrist löschen",
     "pause_due_times"           => "Fristen pausieren",
     "unpause_due_times"         => "Fristen fortsetzen",
+
+    /*
+     * 5.5.0
+     */
+    "close_ticket"              => "Close ticket",
+    "lock_ticket"               => "Lock ticket",
+    "notify_user"               => "Notify user",
 
 );
