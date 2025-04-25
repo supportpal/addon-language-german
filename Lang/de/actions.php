@@ -32,12 +32,12 @@ return array(
     "add_user_to_group"         => "Benutzer zur Gruppe hinzufügen",
     "remove_user_from_group"    => "Benutzer aus Gruppe entfernen",
     "authenticated_operator"    => "Angemledete Operatoren",
-    "all_assigned_operators"    => "Alle zugewiesene Operatoren",
+    "all_assigned_operators"    => "Alle zugewiesenen Operatoren",
     "all_tags"                  => "Alle tags",
-    "subject_placeholder"       => "{{ ticket.subject }} ist der Platzhalter für für ein Ticket, falls sie ein suffix oder Prefix hinzufügen wollen.",
+    "subject_placeholder"       => "{{ ticket.subject }} ist der Platzhalter für ein Ticket, falls Sie ein Suffix oder Präfix hinzufügen wollen.",
     "hours_to_be_added"         => "Stunden werden zum Zeitlimit hinzugefügt.",
-    "hours_to_be_removed"       => "Stunde werden vom Zeitlimit abgezogen.",
-    "hours_to_be_set"           => "Stunden werden der aktuellen Zeithinzufügt als Zeitlimit für das Ticket.",
+    "hours_to_be_removed"       => "Stunden werden vom Zeitlimit abgezogen.",
+    "hours_to_be_set"           => "Stunden werden der aktuellen Zeit hinzugefügt und als Zeitlimit für das Ticket gesetzt.",
     "only_with_due_time"        => "Wirkt nur auf Tickets mit einem Zeitlimit.",
     "set_due_time_desc"         => "Leeren sie das Feld um das aktuelle Zeitlimit zu löschen. Man kann mit einer negativen Nummer auch ein Zeitlimit in der Vergangenheit setzen.",
 
@@ -46,7 +46,7 @@ return array(
      */
     "add_cc"                    => "CC Adresse hinzufügen",
     "remove_cc"                 => "CC Adresse entfernen",
-    "remove_cc_desc"            => "leerlassen um alle CC Adressen aus dem Ticket zu entfernen.",
+    "remove_cc_desc"            => "leer lassen, um alle CC-Adressen aus dem Ticket zu entfernen.",
 
     /*
      * 2.3.1
@@ -56,7 +56,7 @@ return array(
     /*
      * 2.4.0
      */
-    "trigger_webhook"           => "Trigger webhook",
+    "trigger_webhook"           => "Webhook auslösen",
     "forward_ticket"            => "Ticket weiterleiten",
     "watch_ticket"              => "Operator wird über Änderungen informiert",
     "unwatch_ticket"            => "Operator wird nicht mehr über Änderungen informiert",
@@ -71,16 +71,16 @@ return array(
     /*
      * 5.0.0
      */
-    "increase_resolve_due_time" => "Increase resolution due time",
-    "increase_reply_due_time"   => "Increase reply due time",
-    "reduce_resolve_due_time"   => "Reduce resolution due time",
-    "reduce_reply_due_time"     => "Reduce reply due time",
-    "set_resolve_due_time"      => "Set resolution due time",
-    "set_reply_due_time"        => "Set reply due time",
-    "clear_resolve_due_time"    => "Clear resolution due time",
-    "clear_reply_due_time"      => "Clear reply due time",
-    "pause_due_times"           => "Pause due times",
-    "unpause_due_times"         => "Unpause due times",
+    "increase_resolve_due_time" => "Frist zur Lösung verlängern",
+    "increase_reply_due_time"   => "Antwortfrist verlängern",
+    "reduce_resolve_due_time"   => "Frist zur Lösung verkürzen",
+    "reduce_reply_due_time"     => "Antwortfrist verkürzen",
+    "set_resolve_due_time"      => "Frist zur Lösung festlegen",
+    "set_reply_due_time"        => "Antwortfrist festlegen",
+    "clear_resolve_due_time"    => "Frist zur Lösung löschen",
+    "clear_reply_due_time"      => "Antwortfrist löschen",
+    "pause_due_times"           => "Fristen pausieren",
+    "unpause_due_times"         => "Fristen fortsetzen",
 
     /*
      * 5.5.0
