@@ -291,11 +291,6 @@ return array(
     "type_in_tags"              => "Type in Tags",
 
     /*
-     * 2.0.1
-     */
-    "allowed_files_desc"        => "Liste der Dateierweiterungen, separiert durch das pipe | Symbol die als Anhang erlaubt sind. Als Beispiel: txt|png|jpg. Um alle zu erlauben geben sie folgendes ein: ?.*",
-
-    /*
      * 2.0.2
      */
     "no_operator_groups"        => "Keine Operator Gruppen gefunden. Click <a href=':route'>here</a> um eine zu erstellen.",
@@ -594,5 +589,29 @@ return array(
     "copy_to_new_filter"        => "Copy to New Filter",
     "alias_support"             => "Alias Support",
     "alias_support_desc"        => "Alias support analyses the recipient addresses of incoming emails to determine which department the email should be opened in. Disabling alias support will open all emails in the department they were fetched in irrespective of the recipient addresses.",
+
+    /*
+     * 5.7.0
+     */
+    "run_as_operator"           => "Run As",
+    "run_as_operator_desc"      => "Execute the following actions as the selected operator: \":actions\"",
+    "use_ticket_print_view"     => "Please use the dedicated print view to print this ticket. You can access it by clicking the 'Print' option in the ticket view.",
+    "save_feedback"             => "Save Feedback",
+    "ticket_opened_notification" => "New Ticket Opened",
+    "ticket_opened_notification_desc" => "Notifies you when a new user or internal ticket has been opened.",
+    "user_reply_notification"   => "User Ticket Reply Posted",
+    "user_reply_notification_desc" => "Notifies you when a user replies to an existing ticket.",
+    "operator_reply_notification" => "Operator Ticket Reply Posted",
+    "operator_reply_notification_desc" => "Notifies you when another operator replies to a ticket.",
+    "operator_note_notification" => "Operator Ticket Note Posted",
+    "operator_note_notification_desc" => "Notifies you when another operator posts a note on a ticket.",
+    "assigned_notification"     => "Assigned to Ticket",
+    "assigned_notification_desc" => "Notifies you when you are assigned to a ticket.",
+    "department_changed_notification" => "Department Changed",
+    "department_changed_notification_desc" => "Notifies you when a ticket changes department.",
+    "mention_notification"       => "Mentioned",
+    "mention_notification_desc" => "Notifies you when you are mentioned on a ticket.",
+    "mark_resolved_and_post_reply" => "Mark as Resolved & Post Reply",
+    "allowed_files_desc"        => "Liste der Dateierweiterungen, separiert durch das pipe | Symbol die als Anhang erlaubt sind. Als Beispiel: txt|png|jpg. Um alle zu erlauben geben sie folgendes ein: ?.*",
 
 );

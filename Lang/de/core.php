@@ -689,7 +689,7 @@ return array(
     "country_list_aria_label"   => "List of countries",
     "zero_search_results"       => "No results found",
     "one_search_result"         => "1 result found",
-    "multiple_search_results"   => "\${count} results found", // ${count} is a JS variable and should not be changed.
+    "multiple_search_results"   => "${count} results found", // ${count} is a JS variable and should not be changed.
     "advanced"                  => "Advanced",
     "table"                     => "Table",
     "cell"                      => "Cell",
@@ -748,4 +748,18 @@ return array(
     "template_disabled"         => "Template Disabled",
     "reset_email_template"      => "This will update the editor with the default email template content. Any previous changes made will be lost once the email template has been saved.",
 
+    /*
+     * 5.7.0
+     */
+    "cursor_position"           => "Cursor Position",
+    "set_cursor_position"       => "Set Cursor Position",
+    "private_message_notification" => "New Operator Private Message",
+    "private_message_notification_desc" => "Notifies you when you receive correspondence from another operator via private message.",
+
+    /*
+     * 5.7.3
+     */
+    "solid"                     => "Solid",
+    "dashed"                    => "Dashed",
+    "dotted"                    => "Dotted",
 );
