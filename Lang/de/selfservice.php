@@ -33,7 +33,6 @@ return array(
     "excerpt"                   => "Auswahl, Zusammenfassung",
     "associate_tag"             => "Verbinde den Artikel mit einem einen Tag...",
     "associate_category"        => "Weise dem Artikel eine Kategorie zu...",
-    "published_desc"            => "Kann der Artikel öffentlich betrachtet werden. Wenn er nicht veröffentlicht ist, kann er immer noch per URL betrachtet werden wenn zumindest eine der zugewiesenen Kategorien veröffentlicht ist.",
     "registered_users_desc"     => "Zeige Artikel nur angemeldeten Benutzern an.",
 
     "comment_by"                => "Kommentiert durch",
@@ -157,5 +156,17 @@ return array(
      * 5.3.0
      */
     "in_reply_to"               => "in reply to",
+
+    /*
+     * 5.7.0
+     */
+    "comment_notification"      => "New Comment Posted",
+    "comment_notification_desc" => "Notifies you when a new comment is posted on a self-service article.",
+
+    /*
+     * 5.7.5
+     */
+    "published_desc"            => "Kann der Artikel öffentlich betrachtet werden. Wenn er nicht veröffentlicht ist, kann er immer noch per URL betrachtet werden wenn zumindest eine der zugewiesenen Kategorien veröffentlicht ist.",
+    "not_published"             => "Not Published",
 
 );
