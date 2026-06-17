@@ -131,7 +131,6 @@ return array(
     "feedback_expired"          => "Das Ticket wurde bereits vor längerer Zeit gelöst, dadurch kann es nicht mehr bewertet werden.",
     "feedback_questions"        => "Bitte beantworten sie folgende Fragen, um uns die Möglichkeit zu geben den Support zu verbessern.",
     "feedback_for_ticket"       => "Feedback für das Ticket #:number",
-    "feedback_rating_desc"      => "Die im Ticket geleistete Unterstützung wurde als  <strong>:rating</strong> durch den Benutzer bewertet.",
 
     // Custom fields
     "customfield"               => "Ticket Benutzerdefiniertes Feld|Ticket Benutzerdefinierte Felder",
@@ -158,7 +157,6 @@ return array(
     "allowed_files"             => "Erlaubte Dateitypen als Anhang",
 
     // Drafts
-    "draft_saved"               => "Entwurf gespeichet um :time",
     "save_draft"                => "Speicher Entwurf",
     "discard_draft"             => "Lösche Entwurf",
 
@@ -202,7 +200,6 @@ return array(
     "reply_options"             => "Antwort optionen",
     "send_email_to_users"       => "Sende Mail an Benutzer",
     "send_email_to_operators"   => "Sende Mail an Operator(en)",
-    "back_to_grid"              => "Zurück zur Tickettabelle",
     "take"                      => "Nehmen",
     "take_ownership"            => "Besitz übernehmen",
     "pause_duetime"             => "Ablaufzeit pausieren",
@@ -305,14 +302,11 @@ return array(
     "default_reply_options_desc" => "Wähle die Standard Antwort option beim öffnen oder beantworten eines Tickets. Die  ':reply_option' Option wird Ticketbasiert auf grund der Abteilungs Option  ':department_option' gesetzt.",
     "associate_response_tag"    => "Textbaustein einem Tag zuweisen...",
     "canned_response_tags_desc" => "Füge Tags hinzu um einen Textbaustein als Antwort finden zu können.",
-    "append_ip_address"         => "Hänge IP Adresse an",
-    "append_ip_address_desc"    => "Hänge IP Adresse der Benutzer an Ihre Nachrichten in den Tickets.",
     "unassign_operator"         => "Entferne Operator",
     "remove_tag"                => "Entferne Tag",
     "message_clipped"           => "[Nachricht abgeschnitten]",
     "view_entire_message"       => "Gesamte Nachricht anzeigen",
     "no_custom_fields"          => "Keine Benutzerdefinierten Felder gefunden. Click <a href=':route'>here</a> um welche zu erstellen.",
-    "follow_up_active"          => "Eine  <a class='view-followup' style='text-decoration: underline;'>follow up</a> ist gerade auf dem Ticket aktiv und läuft noch <strong>:time</strong>.",
     "disable_user_email_replies" => "Deaktivier Benutzer Antworten",
 
     /*
@@ -478,7 +472,6 @@ return array(
      * 2.6.0
      */
     "follow_ups"                => "Nachverfolgungen",
-    "follow_up_multiple_active" => "Mehrere <a class='view-followup' style='text-decoration: underline;'>Nachverfolgungen</a> sind in auf diesem Ticket aktiv und werden beim nächsten geplanten Lauf ausgeführt um <strong>:time</strong>.",
     "follow_up_no_actions"      => "Die Nachverfolgung hat keine Aktionen, bitte bestätigen sie dass sie weiter möchten.",
     "status_after_running"      => "Status nach Durchlauf",
     "older_messages"            => ":count alte Nachrichten",
@@ -492,11 +485,6 @@ return array(
     "im_not_sure"               => "Ich bin nicht sicher",
     "auto_reply_detected"       => "Automatische Antwort wurde erkannt - Es werden keinen Informationen an den/die Benutzer gesendet.",
     "cc_desc"                   => "Sie können einen Blindempfänger hinzufügen durch Eingabe der Mail Adresse.",
-
-    /*
-     * 3.2.0
-     */
-    "drafting_message"          => "<strong>:name</strong> was drafting a message",
 
     /*
      * 3.3.0
@@ -530,7 +518,6 @@ return array(
      * 4.1.0
      */
     "ticket_format_desc"        => "Kann alphanumerische und Sonderzeichen beinhalten <code>-_.+!*,</code><br />Auch folgende Variablen: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters <br />Die PHP Funktion <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Datum</a> Parameter mit dem Prefix % Y,y,m,d,j,g,G,h,H,i,s",
-    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
     "check_spam"                => "Check Spam Rules",
     "check_spam_api_desc"       => "Block messages which match spam rules.",
     "captcha_desc"              => "Wann soll ein Captcha beim eröffnen von Tickets abgefragt werden.",
@@ -571,9 +558,7 @@ return array(
      */
     "rate_limiting"             => "Rate Limiting",
     "max_requests"              => "Max Requests",
-    "max_requests_desc"         => "Set the maximum number of requests before a user is throttled.",
     "decay_time"                => "Decay Time",
-    "decay_time_desc"           => "The number of minutes until the available attempts are reset.",
     "exclude_addresses"         => "Exclude Addresses",
     "exclude_addresses_desc"    => "A list of email addresses which are excluded from rate limits.",
     "enable_throttling"         => "Enable Throttling",
@@ -613,5 +598,33 @@ return array(
     "mention_notification_desc" => "Notifies you when you are mentioned on a ticket.",
     "mark_resolved_and_post_reply" => "Mark as Resolved & Post Reply",
     "allowed_files_desc"        => "Liste der Dateierweiterungen, separiert durch das pipe | Symbol die als Anhang erlaubt sind. Als Beispiel: txt|png|jpg. Um alle zu erlauben geben sie folgendes ein: ?.*",
+
+    /*
+     * 6.0.0
+     */
+    "back_to_grid"              => "Zurück zur Tickettabelle",
+    "stay_on_ticket"            => "Stay on Ticket",
+    "draft_saved"               => "Entwurf gespeichet um :time",
+    "drafting_message"          => "<strong>:name</strong> was drafting a message",
+    "feedback_notification"     => "Feedback Posted",
+    "feedback_notification_desc" => "Notifies you when feedback is posted on a ticket.",
+    "notify_feedback"           => "Feedback Notifications",
+    "notify_feedback_desc"      => "Specify which feedback responses from this form should trigger notifications to operators.",
+    "notify_all_feedback"       => "Notify on all feedback",
+    "notify_neutral_bad_feedback" => "Notify on neutral & bad feedback only",
+    "notify_bad_feedback"       => "Notify on bad feedback only",
+    "timeline"                  => "Timeline",
+    "filter_timeline"           => "Filter Timeline",
+    "timeline_replies"          => "Replies",
+    "timeline_forwards"         => "Forwards",
+    "timeline_customfields"     => "Custom field changes",
+    "timeline_sla"              => "SLA & due time changes",
+    "timeline_messages"         => "Message & note changes",
+    "timeline_userinfo"         => "User information & changes",
+    "timeline_assignment"       => "Assignment changes",
+    "timeline_state"            => "State changes",
+    "timeline_merging"          => "Merging, linking & splitting",
+    "max_requests_desc"         => "Set the maximum number of requests before a user is throttled.",
+    "decay_time_desc"           => "The number of minutes until the available attempts are reset.",
 
 );

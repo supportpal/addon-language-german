@@ -52,7 +52,6 @@ return array(
 
     "return_to"             => "Zu :page zurückkehren.",
 
-    "session_expired"       => "Ihre Sitzung ist abgelaufen - Bitte loggen Sie sich neu ein.",
     "session_refresh"       => "Ihre Sitzung ist abgelaufen - Bitte aktualisieren Sie diese Seite und versuchen es erneut.",
 
     "general_error"         => "Ein Fehler ist aufgetreten. Bitte versuchern Sie es erneut.",
@@ -73,8 +72,6 @@ return array(
     "forbidden"             => "Verboten",
 
     "not_logged_exception"  => "<strong>Uuuups! Etwas ist schiefgelaufen.</strong><br />Bitte informieren Sie einen Administrator, falls der Fehler weiterhin besteht.",
-
-    "too_many_ticket_reqs"  => "Zuviele Ticketanfragen von der Adresse :email. Es sind maximal :max Anfragen in :decay minutes erlaubt.",
 
     "not_operator"          => "Etwas ist schiefgelaufen. Der ausgewählte Mitarbeiter ist nicht gültig. Bitte stellen Sie sicher, dass der Mitarbeiter einer gruppe zugewiesen und der Gruppe eine Rolle zugewiesen wurde.",
 
@@ -171,6 +168,11 @@ return array(
     /*
      * 5.4.1
      */
-    "throttle_error"        => "Too many attempts, please try again :in_time." // :in_time becomes in 1 minute, etc
+    "throttle_error"        => "Too many attempts, please try again :in_time.", // :in_time becomes in 1 minute, etc
+
+    /*
+     * 6.0.0
+     */
+    "session_expired"       => "Ihre Sitzung ist abgelaufen - Bitte loggen Sie sich neu ein.",
 
 );

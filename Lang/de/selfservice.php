@@ -149,7 +149,6 @@ return array(
      */
     "type_protected_desc"       => "aktivieren um den Inhalt nur angemeldeten Benutzern dazurstellen.",
     "article_feedback"          => "Artikel Feedback",
-    "frontend_icon_desc"        => "Standard Icon für den Frontend. alternativ können sie ihr eigenes Icon zur Verfügung stellen:",
     "comment_deleted"           => "Comment deleted",
 
     /*
@@ -168,5 +167,13 @@ return array(
      */
     "published_desc"            => "Kann der Artikel öffentlich betrachtet werden. Wenn er nicht veröffentlicht ist, kann er immer noch per URL betrachtet werden wenn zumindest eine der zugewiesenen Kategorien veröffentlicht ist.",
     "not_published"             => "Not Published",
+
+    /*
+     * 6.0.0
+     */
+    "frontend_icon_desc"        => "Standard Icon für den Frontend. alternativ können sie ihr eigenes Icon zur Verfügung stellen:",
+    "icon_book"                 => "Book",
+    "icon_download"             => "Download",
+    "icon_newspaper"            => "Newspaper",
 
 );
