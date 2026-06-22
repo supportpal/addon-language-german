@@ -3,22 +3,22 @@
 return array(
 
     // Merge fields
-    "merge_fields"              => "Merge Fields",
-    "strings"                   => "Strings",
+    "merge_fields"              => "Platzhalter",
+    "strings"                   => "Zeichenketten",
     "collections"               => "Sammlungen",
-    "frontend_url"              => "Frontend URL",
-    "operator_url"              => "Mitarbeiter URL",
+    "frontend_url"              => "Frontend-URL",
+    "operator_url"              => "Mitarbeiter-URL",
 
     /*
      * 2.1.0
      */
-    "merge_fields_desc"         => "Most commonly used email and response merge fields are found below. For more details on how to utilise the merge fields, please refer to the <a target='_blank' href='http://docs.supportpal.com/display/DOCS/Merge+Fields'>documentation</a>.",
+    "merge_fields_desc"         => "Die am häufigsten verwendeten E-Mail- und Antwort-Platzhalter finden Sie unten. Weitere Informationen zur Verwendung der Platzhalter finden Sie in der <a target='_blank' href='https://docs.supportpal.com/current/Merge+Fields'>Dokumentation</a>.",
 
     /*
      * 2.4.0
      */
-    "merge_field"               => "Merge Field",
-    "merge_field_canned_desc"   => "Dieses merge field kann benutzt werden bei den Textbausteinen in  (Settings -> Tickets -> Canned Responses).",
-    "response_merge_field"      => "Kopiere den oberen Text um ihn als merge field zu nutzen.",
+    "merge_field"               => "Platzhalter",
+    "merge_field_canned_desc"   => "Dieser Platzhalter kann bei den Textbausteinen verwendet werden (Einstellungen -> Tickets -> Textbausteine).",
+    "response_merge_field"      => "Kopieren Sie den obigen Text, um ihn als Textbaustein zu nutzen.",
 
 );

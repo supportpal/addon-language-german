@@ -12,10 +12,10 @@ return array(
     "tag"                       => "Stichwort|Stichwörter",
     "type"                      => "Typ|Typen",
 
-    "frontend_icon"             => "Frontend Icon",
+    "frontend_icon"             => "Frontend-Symbol",
 
-    "no_categories"             => ":type hat momentan keinen Kategorien. Bitte erstellen sie eine Kategorie, bevor sie einen Arikel erstellen.",
-    "no_categories_frontend"    => "Es gibt keinen Kategorien anzuzeigen.",
+    "no_categories"             => ":type hat momentan keine Kategorien. Bitte erstellen Sie eine Kategorie, bevor Sie einen Artikel erstellen.",
+    "no_categories_frontend"    => "Es gibt keine Kategorien anzuzeigen.",
 
     "awaiting_moderation"       => "wartet auf Moderation",
     "published"                 => "Veröffentlicht",
@@ -25,13 +25,13 @@ return array(
     "list"                      => "Liste",
 
     "show_on_dashboard"         => "Zeige Artikel in der Frontend Homepage an",
-    "show_on_dashboard_desc"    => "Zeigt einige Artikeln in der Frontend Homepage an. Wenn die Ansicht auf <strong>Hierarchisch</strong> gestellt ist, zeigt es die 5 meist angezeigten Artikel an. Wenn die Ansicht auf  <strong>Liste</strong> gestellt ist, werden die 5 letzten Artikel angezeigt.",
+    "show_on_dashboard_desc"    => "Zeigt einige Artikel in der Frontend Homepage an. Wenn die Ansicht auf <strong>Hierarchisch</strong> gestellt ist, zeigt es die 5 meist angezeigten Artikel an. Wenn die Ansicht auf  <strong>Liste</strong> gestellt ist, werden die 5 letzten Artikel angezeigt.",
 
     "title"                     => "Titel",
     "author"                    => "Autor",
     "keyword"                   => "Stichwort|Stichwörter",
-    "excerpt"                   => "Auswahl, Zusammenfassung",
-    "associate_tag"             => "Verbinde den Artikel mit einem einen Tag...",
+    "excerpt"                   => "Auszug",
+    "associate_tag"             => "Verbinde den Artikel mit einem Tag...",
     "associate_category"        => "Weise dem Artikel eine Kategorie zu...",
     "registered_users_desc"     => "Zeige Artikel nur angemeldeten Benutzern an.",
 
@@ -39,23 +39,23 @@ return array(
     "replying_to"               => "Antworten an",
     "receive_notifications"     => "Empfange Benachrichtigungen für zukünftige Antworten",
 
-    "login_comment"             => "Sie müssen angemeldet sein um kommentieren zu können",
-    "incorrect_captcha"         => "Das captcha war nicht korrekt gelöst.",
+    "login_comment"             => "Sie müssen angemeldet sein, um zu kommentieren zu können",
+    "incorrect_captcha"         => "Das Captcha wurde nicht korrekt gelöst.",
     "comment_blocked"           => "Der Kommentar wurde als Spam blockiert.",
-    "comment_success"           => "Ihr Kommentar würde übermittelt!",
+    "comment_success"           => "Ihr Kommentar wurde übermittelt!",
     "comment_success_moderated" => "Ihr Kommentar wurde zur Moderation durch unser Team übermittelt.",
 
     "comment_rated_success"     => "Ihr Kommentar wurde als erfolgreich bewertet.",
     "comment_rated_error"       => "Ihr Kommentar konnte nicht bewertet werden",
 
-    "article_find_useful"       => "Fanden sie diesen Artikel hilfreich?",
+    "article_find_useful"       => "Fanden Sie diesen Artikel hilfreich?",
     "article_rated_success"     => "Der Artikel wurde erfolgreich bewertet.",
     "article_rated_error"       => "Der Artikel konnte nicht bewertet werden.",
 
-    "comment_below_threshold"   => "(Kommentare unter dem Grenzwert, Clicke um sie anzuzeigen)",
+    "comment_below_threshold"   => "(Kommentare unter dem Grenzwert, klicken Sie um sie anzuzeigen)",
     "view_all_replies"          => "Zeige alle Antworten",
     "show_more_comments"        => "Zeige mehr Kommentare",
-    "highest_rated"             => "Höchstbewereten Kommtare",
+    "highest_rated"             => "Höchstbewertete Kommentare",
     "newest"                    => "Neueste",
     "oldest"                    => "Älteste",
 
@@ -65,18 +65,18 @@ return array(
 
     "rating"                    => "Bewertung|Bewertungen",
 
-    "rssfeed"                   => "RSS Feed",
+    "rssfeed"                   => "RSS-Feed",
 
     // General settings
     "settings"                  => "Self-Service Einstellungen",
     "enable_comments"           => "Ermögliche Kommentare",
-    "enable_comments_desc"      => "Ermögliche Benutzern das kommentieren von Artikeln.",
-    "write_comments"            => "Schreibe Kommntare",
+    "enable_comments_desc"      => "Ermögliche Benutzern das Kommentieren von Artikeln.",
+    "write_comments"            => "Schreibe Kommentare",
     "write_comments_desc"       => "Anonyme Kommentare oder nur durch registrierte Benutzer.",
     "registered_users"          => "Nur registrierte Benutzer",
     "unregistered_users"        => "Nur unregistrierte Benutzer",
     "show_captcha"              => "Zeige Captcha",
-    "show_captcha_desc"         => "Wann soll beim kommentieren durch Benutzer ein Captcha angezeigt werden",
+    "show_captcha_desc"         => "Wann soll beim Kommentieren durch Benutzer ein Captcha angezeigt werden",
     "comment_moderation"        => "Kommentare moderieren",
     "comment_moderation_desc"   => "Müssen Kommentare moderiert werden bevor sie veröffentlicht werden, oder sollen sie automatisch veröffentlicht werden.",
     "moderated"                 => "Moderiert",
@@ -92,7 +92,7 @@ return array(
     /*
      * 2.0.3
      */
-    "auth_required"             => "Please login or register an account to view the article.",
+    "auth_required"             => "Bitte melden Sie sich an oder registrieren Sie ein Konto, um den Artikel anzuzeigen.",
 
     /*
      * 2.1.0
@@ -117,25 +117,25 @@ return array(
      * 2.3.1
      */
     "slug"                      => "Slug",
-    "slug_desc"                 => "Die  URL-freundliche Version des Namens. Normalweise bestehend aus kleinen Buchstaben, Zahlen und dem Bindestrich.",
+    "slug_desc"                 => "Die URL-freundliche Version des Namens. Normalweise bestehend aus kleinen Buchstaben, Zahlen und dem Bindestrich.",
     "change_slug"               => "Ändere Slug",
     "published_date"            => "Datum der Veröffentlichung",
-    "published_date_desc"       => "Datum der Veröffentlichung das den Benutzern im Frontend angezigt wird.",
+    "published_date_desc"       => "Datum der Veröffentlichung das den Benutzern im Frontend angezeigt wird.",
     "content_options"           => "Inhaltsoptionen",
-    "content_desc"              => "Der Inhalt wird mit diesem Typ zur Verfügung gestellt.<br /><strong>Artikel</strong> - eine Gruppe von Nachrichten die gruppiert werden können (zum Beispiel eine Wissensdatenbank) oder die individuell sind (zum Beispiel Ankündigungen).<br /><strong>externer Link</strong> - Ermöglicht Links zu einer anderen Website, zum Beispiel einem Dokumentationsprotal.",
+    "content_desc"              => "Der Inhalt wird mit diesem Typ zur Verfügung gestellt.<br /><strong>Artikel</strong> - eine Gruppe von Nachrichten die gruppiert werden können (zum Beispiel eine Wissensdatenbank) oder die individuell sind (zum Beispiel Ankündigungen).<br /><strong>externer Link</strong> - Ermöglicht Links zu einer anderen Website, zum Beispiel einem Dokumentationsportal.",
     "external_link"             => "Externer Link",
-    "type_view_desc"            => "Wenn dein Inhalt viele Kategorien und Informationen beinhaltet wie eine Wissensdatenbank empfehlen wir die Hierarchische Ansicht.Wenn dein Inhalt chronologisch ist wie zum Beispiel ein Blog oder Ankündigungen empfehlen wir die Listenansicht. Der externe Link kann nur Inhalten ausserhalb des Helpdesksystems genutzt werden.",
+    "type_view_desc"            => "Wenn Ihr Inhalt viele Kategorien und Informationen beinhaltet wie eine Wissensdatenbank empfehlen wir die Hierarchische Ansicht. Wenn Ihr Inhalt chronologisch ist wie zum Beispiel ein Blog oder Ankündigungen empfehlen wir die Listenansicht. Der externe Link kann nur für Inhalte außerhalb des Support-Portals genutzt werden.",
     "pinned"                    => "Fixiert",
     "pinned_desc"               => "Fixierte Inhalte werden oben im Frontend dargestellt, nur für die Listenansicht.",
     "article_ordering"          => "Sortierung der Artikel",
     "article_ordering_desc"     => "Die Sortierung der Artikel bei Betrachtung im Frontend.",
     "most_popular"              => "Populärsten",
     "most_recent"               => "Aktuellsten",
-    "type_order"                => "Sie können die Reihenfolge der Typen in der Frontend Darsstellung durch 'Drag and Drop' steuern.",
+    "type_order"                => "Sie können die Reihenfolge der Typen in der Frontend Darstellung durch 'Drag and Drop' steuern.",
     "type_enabled_desc"         => "Das deaktivieren entfernt den Type aus der Darstellung im Frontend.",
     "internal"                  => "Intern",
-    "internal_desc"             => "Umschalten um die Sichtbarkeit auf Intern, nur für Operator umzustellen.",
-    "login_to_comment"          => "Melden sie sich an um kommentieren zu können",
+    "internal_desc"             => "Umschalten um die Sichtbarkeit auf Intern, nur für Mitarbeiter umzustellen.",
+    "login_to_comment"          => "Melden Sie sich an um kommentieren zu können",
     "article_rating"            => "Artikel Bewertung|Artikel Bewertungen",
     "comment_rating"            => "Kommentar Bewertung|Kommentar Bewertungen",
 
@@ -147,33 +147,33 @@ return array(
     /*
      * 3.0.0
      */
-    "type_protected_desc"       => "aktivieren um den Inhalt nur angemeldeten Benutzern dazurstellen.",
+    "type_protected_desc"       => "aktivieren um den Inhalt nur angemeldeten Benutzern darstellen.",
     "article_feedback"          => "Artikel Feedback",
-    "comment_deleted"           => "Comment deleted",
+    "comment_deleted"           => "Kommentar gelöscht",
 
     /*
      * 5.3.0
      */
-    "in_reply_to"               => "in reply to",
+    "in_reply_to"               => "als Antwort auf",
 
     /*
      * 5.7.0
      */
-    "comment_notification"      => "New Comment Posted",
-    "comment_notification_desc" => "Notifies you when a new comment is posted on a self-service article.",
+    "comment_notification"      => "Neuer Kommentar veröffentlicht",
+    "comment_notification_desc" => "Benachrichtigt Sie, wenn ein neuer Kommentar zu einem Self-Service-Artikel veröffentlicht wird.",
 
     /*
      * 5.7.5
      */
     "published_desc"            => "Kann der Artikel öffentlich betrachtet werden. Wenn er nicht veröffentlicht ist, kann er immer noch per URL betrachtet werden wenn zumindest eine der zugewiesenen Kategorien veröffentlicht ist.",
-    "not_published"             => "Not Published",
+    "not_published"             => "Nicht veröffentlicht",
 
     /*
      * 6.0.0
      */
-    "frontend_icon_desc"        => "Standard Icon für den Frontend. alternativ können sie ihr eigenes Icon zur Verfügung stellen:",
-    "icon_book"                 => "Book",
+    "frontend_icon_desc"        => "Standard Icon für den Frontend. Alternativ können Sie Ihr eigenes Icon zur Verfügung stellen:",
+    "icon_book"                 => "Buch",
     "icon_download"             => "Download",
-    "icon_newspaper"            => "Newspaper",
+    "icon_newspaper"            => "Zeitung",
 
 );

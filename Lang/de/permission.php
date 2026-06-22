@@ -27,10 +27,10 @@ return array(
     "user_edit"         => "Benutzer bearbeiten",
     "user_delete"       => "Benutzer löschen",
     "usergroup"         => "Benutzergruppen verwalten",
-    "massemail"         => "Massmailen verschicken",
+    "massemail"         => "Massen-E-Mails verschicken",
     "ldapaccount"       => "LDAP-Zugänge verwalten",
     "activitylog"       => "Aktivitätsprotokoll des Systems einsehen",
-    "operatorlog"       => "Mitarbeiterprotkoll einsehen",
+    "operatorlog"       => "Mitarbeiterprotokoll einsehen",
 
     // Ticket
     "cannedresponse"    => "vorgefertigte Antworten verwalten",
@@ -42,7 +42,7 @@ return array(
     "priority"          => "Prioritäten verwalten",
     "schedule"          => "Zeitpläne verwalten",
     "slaplan"           => "SLA-Pläne verwalten",
-    "status"            => "Statusse verwalten",
+    "status"            => "Status verwalten",
     "ticket_view"       => "Tickets anzeigen",
     "ticket_add"        => "Tickets öffnen",
     "ticket_edit"       => "Tickets aktualisieren",
@@ -70,78 +70,78 @@ return array(
      * 2.1.0
      */
     // Core
-    "brand"             => "Verwalte Marken",
-    "phpinfo"           => "Zeige PHP Informationen an",
+    "brand"             => "Marken verwalten",
+    "phpinfo"           => "PHP-Informationen anzeigen",
 
     // User
-    "usercustomfield"   => "Verwalte benutzerdefinierte Felder",
-    "organisationcustomfield" => "Verwalte Organisatiionsbezogene benutzerdefinierte Felder",
+    "usercustomfield"   => "Benutzerdefinierte Felder verwalten",
+    "organisationcustomfield" => "Verwalte organisationsbezogene benutzerdefinierte Felder",
 
     /*
      * 2.1.1
      */
     // Core
-    "logfiles"          => "Verwalte Log Dateien",
+    "logfiles"          => "Log-Dateien verwalten",
 
     /*
      * 2.4.0
      */
     // User
-    "sociallogin"       => "Verwalte Social Login",
+    "sociallogin"       => "Social Login verwalten",
 
     /*
      * 2.5.0
      */
     // Ticket
-    "ticket_delete"     => "Lösche Tickets permanent",
-    "ticket_trash"      => "Verschiebe Tickets in den Papierkorb",
+    "ticket_delete"     => "Tickets permanent löschen",
+    "ticket_trash"      => "Tickets in den Papierkorb verschieben",
 
     /*
      * 3.0.0
      */
-    "selfservicefeedbackform" => "Verwalte Frontend Feedback Forumlare",
-    "ticketfeedbackform"      => "Verwalte Ticket Feedback Forulare",
+    "selfservicefeedbackform" => "Verwalte Frontend-Feedback-Formulare",
+    "ticketfeedbackform"      => "Verwalte Ticket-Feedback-Formulare",
 
     /*
      * 3.3.0
      */
-    "integration"       => "Manage Third-Party Integrations",
+    "integration"       => "Drittanbieter-Integrationen verwalten",
 
     /*
      * 3.6.0
      */
-    "systemupdate"      => "Perform System Update",
+    "systemupdate"      => "System-Update durchführen",
 
     /*
      * 3.7.0
      */
-    "background_jobs"   => "View Background Jobs",
+    "background_jobs"   => "Hintergrundaufgaben anzeigen",
 
     /*
      * 4.0.0
      */
-    "addon"             => "View and Manage Add-ons",
-    "system_health"     => "View System Health",
+    "addon"             => "Add-ons anzeigen und verwalten",
+    "system_health"     => "Systemzustand anzeigen",
 
     /*
      * 4.2.0
      */
-    "operatorreplytemplate" => "Manage Operator Reply Templates",
+    "operatorreplytemplate" => "Antwortvorlagen der Mitarbeiter verwalten",
 
     /*
      * 5.0.0
      */
-    "private_messaging" => "View Private Messages",
+    "private_messaging" => "Private Nachrichten anzeigen",
 
     /*
      * 5.1.0
      */
-    "manage_report"     => "Manage Reports",
+    "manage_report"     => "Berichte verwalten",
 
     /*
      * 5.7.0
      */
-    "operatornotification" => "Manage Operator Notifications",
-    "replytemplate"     => "Manage Own Reply Templates",
+    "operatornotification" => "Mitarbeiter-Benachrichtigungen verwalten",
+    "replytemplate"     => "Eigene Antwortvorlagen verwalten",
 
 );

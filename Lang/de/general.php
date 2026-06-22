@@ -3,13 +3,13 @@
 return array(
 
     "clear"                     => "Löschen",
-    "begin"                     => "Begin",
+    "begin"                     => "Beginnen",
     "documentation"             => "Dokumentation",
     "good"                      => "Gut",
     "bad"                       => "Schlecht",
     "expire"                    => "Enden",
     "send"                      => "Senden",
-    "cancel"                    => "Abrechen",
+    "cancel"                    => "Abbrechen",
     "start"                     => "Start",
     "dismiss"                   => "Verwerfen",
     "next"                      => "Weiter",
@@ -36,9 +36,9 @@ return array(
     "date"                      => "Datum",
     "time"                      => "Uhrzeit",
     "id"                        => "ID",
-    "log"                       => "Log",
+    "log"                       => "Protokoll",
     "filter"                    => "Filter",
-    "ip_address"                => "IP-Addresse",
+    "ip_address"                => "IP-Adresse",
     "ip"                        => "IP",
     "permanent"                 => "Dauerhaft",
     "reason"                    => "Grund",
@@ -51,9 +51,9 @@ return array(
     "message"                   => "Nachricht|Nachrichten",
     "post"                      => "Beitrag|Beiträge",
     "email"                     => "E-Mail",
-    "account"                   => "Account|Accounts",
-    "address"                   => "Addresse",
-    "email_address"             => "E-Mail-Addresse",
+    "account"                   => "Konto|Konten",
+    "address"                   => "Adresse",
+    "email_address"             => "E-Mail-Adresse",
     "type"                      => "Typ",
     "option"                    => "Option",
     "remove"                    => "Entfernen",
@@ -69,11 +69,11 @@ return array(
     "show"                      => "Anzeigen",
     "hide"                      => "Ausblenden",
     "category"                  => "Kategorie|Kategorien",
-    "parent"                    => "Parent",
+    "parent"                    => "Übergeordnet",
     "none"                      => "Keine",
     "default"                   => "Voreinstellung",
     "disable"                   => "Deaktivieren",
-    "home"                      => "Home",
+    "home"                      => "Startseite",
     "navigation"                => "Navigation",
     "action"                    => "Aktion|Aktionen",
     "value"                     => "Wert",
@@ -88,11 +88,11 @@ return array(
     "ascending"                 => "Aufsteigend",
     "descending"                => "Absteigend",
     "number"                    => "Nummer",
-    "order_by"                  => "sortieren nach",
+    "order_by"                  => "Sortieren nach",
     "active"                    => "Aktiv",
     "validate_auth"             => "Authentifizierung validieren",
     "end"                       => "Ende",
-    "loading"                   => "Lade",
+    "loading"                   => "Wird geladen",
     "maintenance"               => "Wartung",
     "status"                    => "Status|Status",
     "count"                     => "Anzahl",
@@ -109,10 +109,10 @@ return array(
     "type_to_filter"            => "Zu filternder Typ",
     "enter_exact_ip"            => "Exakte IP-Addresse eintragen",
     "form"                      => "Formular",
-    "support_portal"            => "HelpDesk",
+    "support_portal"            => "Support-Portal",
     "previous_page"             => "Vorherige Seite",
     "reset"                     => "Zurücksetzen",
-    "interval"                  => "Interval",
+    "interval"                  => "Intervall",
     "content"                   => "Inhalt",
     "sender"                    => "Absender",
     "content_sender"            => "Inhalt &amp; Absender",
@@ -143,7 +143,7 @@ return array(
     "hours_before_overdue"      => "Stunden bis zur Überfälligkeit",
     "transfer"                  => "Übertragen",
     "view_all"                  => "Alle anzeigen",
-    "manage"                    => "verwalten",
+    "manage"                    => "Verwalten",
     "search"                    => "Suchen",
     "activate"                  => "Aktivieren",
     "deactivate"                => "Deaktivieren",
@@ -151,8 +151,8 @@ return array(
     "version"                   => "Version",
 
     "by"                        => "von",
-    "record"                    => "eintrag",
-    "views"                     => "aufruf",
+    "record"                    => "Eintrag",
+    "views"                     => "Aufruf",
     "of"                        => "im",            // Used in group e.g. Last Thursday of November
     "to"                        => "bis",            // Used in a range e.g. 2 to 5
 
@@ -176,7 +176,7 @@ return array(
     /*
      * 2.0.1
      */
-    "download"                  => "herunterladen",
+    "download"                  => "Herunterladen",
 
     /*
      * 2.0.2
@@ -201,14 +201,14 @@ return array(
     /*
      * 2.1.0
      */
-    "na"                        => 'N/A',
-    "total"                     => "Total",
+    "na"                        => 'N/V',
+    "total"                     => "Gesamt",
     "disabled"                  => "deaktiviert",
     "not_set"                   => "nicht gesetzt",
     "add_item"                  => ":item hinzufügen",
-    "edit_item"                 => "Edit :item",
+    "edit_item"                 => ":item bearbeiten",
     "any"                       => "jegliche",
-    "module_generalsetting"     => ":module General Settings",
+    "module_generalsetting"     => ":module Allgemeine Einstellungen",
     "field"                     => "Feld",
     "rule"                      => "Regel",
     "start_date"                => "Start Datum",
@@ -223,7 +223,7 @@ return array(
     "size"                      => "Größe",
     "edited"                    => "editiert",
     "scheduled_for"             => "Geplant für",
-    "drag_and_drop"             => "Anhänge hierher ziehn.",
+    "drag_and_drop"             => "Anhänge hierher ziehen.",
 
     /*
      * 2.1.2
@@ -232,14 +232,14 @@ return array(
     "minutes_ago"               => ":number Minute zuvor|:number Minuten zuvor",
     "hours_ago"                 => ":number Stunde zuvor|:number Stunden zuvor",
     "days_ago"                  => ":number Tag zuvor|:number Tage zuvor",
-    "months_ago"                => ":number month ago|:number Monate zuvor",
+    "months_ago"                => ":number Monat zuvor|:number Monate zuvor",
     "years_ago"                 => ":number Jahr zuvor|:number Jahre zuvor",
     "shortly"                   => "kürzlich",
     "in_minutes"                => "in einer Minute|in :number Minuten",
     "in_hours"                  => "in einer Stunde|in :number Stunden",
     "in_days"                   => "in einem Tag|in :number Tagen",
-    "in_months"                 => "in :number month|in :number Monaten",
-    "in_years"                  => "in :number year|in :number Jahre",
+    "in_months"                 => "in einem Monat|in :number Monaten",
+    "in_years"                  => "in einem Jahr|in :number Jahren",
     "number_minutes"            => ":number Minute|:number Minuten",
     "number_hours"              => ":number Stunde|:number Stunden",
     "number_days"               => ":number Tag|:number Tage",
@@ -259,7 +259,7 @@ return array(
     "thursday"                  => "Donnerstag",
     "friday"                    => "Freitag",
     "saturday"                  => "Samstag",
-    "sunday"                    => "Sontak",
+    "sunday"                    => "Sonntag",
     "inactive"                  => "Inaktiv",
     "run"                       => "läuft",
 
@@ -267,8 +267,8 @@ return array(
      * 2.3.0
      */
     "regex"                     => "Regex Validierung",
-    "check_all"                 => "Wähle alle aus",
-    "uncheck_all"               => "Wähle alle ab",
+    "check_all"                 => "Wählen Sie alle aus",
+    "uncheck_all"               => "Wählen Sie alle ab",
     "after_and_including"       => "nach und einschließlich",
     "add_link"                  => "Link hinzufügen",
     "unlink"                    => "Link entfernen",
@@ -285,7 +285,7 @@ return array(
     "private_to"                => "Privat an",
     "refresh"                   => "Aktualisieren",
     "provider"                  => "Anbieter",
-    "export"                    => "Export|Exports",
+    "export"                    => "Export|Exporte",
     "generate"                  => "Generieren",
 
     /*
@@ -311,12 +311,12 @@ return array(
     /*
      * 2.6.0
      */
-    "remove_all"                => "entferne alle",
+    "remove_all"                => "Entfernen Sie alle",
 
     /*
      * 3.0.0
      */
-    "previous"                  => "vorher",
+    "previous"                  => "Zurück",
     "neutral"                   => "Neutral",
     "and"                       => "und",            // Used in "A and B"
     "optional"                  => "Optional",
@@ -334,7 +334,7 @@ return array(
     "december"                  => "Dezember",
     "jan"                       => "Jan",
     "feb"                       => "Feb",
-    "mar"                       => "Mar",
+    "mar"                       => "Mär",
     "apr"                       => "Apr",
     "jun"                       => "Jun",
     "jul"                       => "Jul",
@@ -343,36 +343,36 @@ return array(
     "oct"                       => "Okt",
     "nov"                       => "Nov",
     "dec"                       => "Dez",
-    "mon"                       => "Mon",
+    "mon"                       => "Mo",
     "tue"                       => "Die",
     "wed"                       => "Mit",
     "thu"                       => "Don",
     "fri"                       => "Fre",
     "sat"                       => "Sam",
-    "sun"                       => "Son00",
+    "sun"                       => "Son",
     "ordinal_th"                => "",
     "ordinal_st"                => "",
     "ordinal_nd"                => "",
     "ordinal_rd"                => "",
     "range_separator"           => " bis ",
     "week_abbr"                 => "Wo",
-    "scroll_to_increment"       => "Scroll um zu erhöhen",
-    "click_to_toggle"           => "Clicken um umzuschalten",
+    "scroll_to_increment"       => "Scrollen zum Erhöhen",
+    "click_to_toggle"           => "Klicken zum Umschalten",
     "am"                        => "AM",
     "pm"                        => "PM",
-    "viewing"                   => "Viewing",
+    "viewing"                   => "Ansicht",
 
     /*
      * 3.3.0
      */
     "authentication"            => "Authentifizierung",
-    "manage_credentials"        => "Credentials verwalten",
+    "manage_credentials"        => "Anmeldedaten verwalten",
 
     /*
      * 3.4.0
      */
-    "select_a_date"             => "Wähle ein Datum",
-    "select_values"             => "Wähle einen Wert",
+    "select_a_date"             => "Wählen Sie ein Datum",
+    "select_values"             => "Wählen Sie einen Wert",
     "file"                      => "Datei",
 
     /*
@@ -388,7 +388,7 @@ return array(
     /*
      * 3.6.0
      */
-    "appearance"                => "Appearance",
+    "appearance"                => "Erscheinungsbild",
     "faster"                    => "Schneller",
     "slower"                    => "Langsamer",
     "revoke"                    => "Zurückziehen",
@@ -397,56 +397,56 @@ return array(
     /*
      * 3.7.0
      */
-    "download_all"              => "Download All",
+    "download_all"              => "Alle herunterladen",
 
     /*
      * 4.0.0
      */
-    "install"                   => "Install",
-    "installing"                => "Installing...",
-    "updating"                  => "Updating...",
-    "cancelling"                => "Cancelling...",
+    "install"                   => "Installieren",
+    "installing"                => "Wird installiert...",
+    "updating"                  => "Wird aktualisiert...",
+    "cancelling"                => "Wird abgebrochen...",
     "ok"                        => "OK",
-    "mark_as_verified"          => "Mark as Verified",
-    "not_verified"              => "Not Verified",
-    "free"                      => "Free",
-    "commercial"                => "Commercial",
-    "purchase"                  => "Purchase",
-    "more_information"          => "More Information",
+    "mark_as_verified"          => "Als verifiziert markieren",
+    "not_verified"              => "Nicht verifiziert",
+    "free"                      => "Kostenlos",
+    "commercial"                => "Kommerziell",
+    "purchase"                  => "Kaufen",
+    "more_information"          => "Weitere Informationen",
     "details"                   => "Details",
 
     /*
      * 4.1.0
      */
-    "merge"                     => "Merge",
+    "merge"                     => "Zusammenführen",
 
     /*
      * 5.0.0
      */
-    "invited"                   => "Invited",
-    "apply"                     => "Apply",
-    "opened"                    => "Opened",
-    "week"                      => "Week|Weeks",
-    "quarter"                   => "Quarter|Quarters",
+    "invited"                   => "Eingeladen",
+    "apply"                     => "Anwenden",
+    "opened"                    => "Geöffnet",
+    "week"                      => "Woche|Wochen",
+    "quarter"                   => "Quartal|Quartale",
 
     /*
      * 5.5.0
      */
-    "mark_as_done"              => "Mark as Done",
+    "mark_as_done"              => "Als erledigt markieren",
 
     /*
      * 5.7.0
      */
     "bot"                       => "Bot|Bots",
-    "allow_all"                 => "Allow All",
+    "allow_all"                 => "Alle zulassen",
 
     /*
      * 6.0.0
      */
-    "maximise"                  => "Maximise",
-    "minimise"                  => "Minimise",
-    "resize"                    => "Resize",
-    "activity"                  => "Activity",
-    "server"                    => "Server|Servers",
+    "maximise"                  => "Maximieren",
+    "minimise"                  => "Minimieren",
+    "resize"                    => "Größe ändern",
+    "activity"                  => "Aktivität",
+    "server"                    => "Server|Server",
 
 );

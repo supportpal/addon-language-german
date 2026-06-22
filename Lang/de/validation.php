@@ -23,12 +23,12 @@ return array(
     "before"                    => ":attribute muss ein Datum vor :date sein.",
     "between"                   => array(
         "numeric" => ":attribute muss zwischen :min und :max liegen.",
-        "file"    => ":attribute muss zwischen :min und :max kilobytes liegen.",
-        "string"  => ":attribute muss zwischen :min und :max characters liegen.",
+        "file"    => ":attribute muss zwischen :min und :max Kilobytes liegen.",
+        "string"  => ":attribute muss zwischen :min und :max Zeichen liegen.",
         "array"   => ":attribute muss zwischen :min und :max Elementen liegen.",
     ),
     "boolean"                   => ":attribute muss \"true\" oder \"false\" sein.",
-    "confirmed"                 => ":attribute confirmation does not match.",
+    "confirmed"                 => ":attribute Bestätigung stimmt nicht überein.",
     "date"                      => ":attribute ist kein gültiges Datum.",
     "date_format"               => ":attribute stimmt nicht mit dem Format :format überein. ",
     "different"                 => ":attribute und :other müssen unterschiedlich sein.",
@@ -39,17 +39,17 @@ return array(
     "image"                     => ":attribute muss ein Bild sein.",
     "in"                        => "Das ausgewählte :attribute ist ungültig.",
     "integer"                   => ":attribute muss ein \"integer\" sein.",
-    "ip"                        => ":attribute must eine gültige IP sein.",
+    "ip"                        => ":attribute muss eine gültige IP sein.",
     "max"                       => array(
         "numeric" => ":attribute darf nicht größer sein als :max.",
-        "file"    => ":attribute darf nicht größer sein als :max kilobytes.",
-        "string"  => ":attribute darf nicht größer sein als :max characters.",
+        "file"    => ":attribute darf nicht größer sein als :max Kilobytes.",
+        "string"  => ":attribute darf nicht größer sein als :max Zeichen.",
         "array"   => ":attribute darf nicht mehr als :max Elemente enthalten.",
     ),
     "mimes"                     => ":attribute muss eine Datei folgendes Typs sein: :values.",
     "min"                       => array(
         "numeric" => ":attribute muss mindestens :min sein.",
-        "file"    => ":attribute muss mindestens :min kilobytes groß sein.",
+        "file"    => ":attribute muss mindestens :min Kilobytes groß sein.",
         "string"  => ":attribute muss mindestens :min Zeichen enthalten.",
         "array"   => ":attribute muss mindestens :min Elemente enthalten.",
     ),
@@ -59,18 +59,18 @@ return array(
     "required"                  => ":attribute ist ein Pflichtfeld.",
     "required_if"               => ":attribute ist ein Pflichtfeld wenn :other :value ist.",
     "required_with"             => ":attribute ist ein Pflichtfeld wenn :values vorhanden ist.",
-    "required_with_all"         => ":attribute ist ein Pflichtfeld :values vorhanden ist.",
+    "required_with_all"         => ":attribute ist ein Pflichtfeld wenn :values vorhanden ist.",
     "required_without"          => ":attribute ist ein Pflichtfeld :values nicht vorhanden ist.",
     "required_without_all"      => ":attribute ist ein Pflichtfeld wenn keines von :values vorhanden ist.",
-    "same"                      => ":attribute and :other must match.",
+    "same"                      => ":attribute und :other müssen übereinstimmen.",
     "size"                      => array(
         "numeric" => ":attribute muss :size groß sein.",
-        "file"    => ":attribute muss :size kilobytes groß sein.",
-        "string"  => ":attribute must :size Zeichen lang sein.",
-        "array"   => ":attribute must :size Elemente.",
+        "file"    => ":attribute muss :size Kilobytes groß sein.",
+        "string"  => ":attribute muss :size Zeichen lang sein.",
+        "array"   => ":attribute muss :size Elemente enthalten.",
     ),
     "unique"                    => ":attribute wurde schon benutzt.",
-    "url"                       => ":attribute hast ein ungültiges Format.",
+    "url"                       => ":attribute hat ein ungültiges Format.",
     "template_exists"           => ":attribute ist kein gültiges Template.",
     "is_valid_captcha"          => "Der eingegebene Captcha ist ungültig oder Sie haben sich vertippt. Bitte probieren Sie es noch einmal.",
     "user_password_strength"    => ":attribute muss beinhalten: :user_password_strength.",
@@ -85,19 +85,19 @@ return array(
      * 2.2.0
      */
     "required_with_translation" => "Die Übersetzung :translation für das Feld :attribute ist zwingend erforderlich wenn :values gesetzt ist.",
-    "max_translation"           => "Die Übersetzung :translation für das Feld :attribute darf nich länger als  :max Zeichen sein.",
+    "max_translation"           => "Die Übersetzung :translation für das Feld :attribute darf nicht länger als :max Zeichen sein.",
     "unique_translation"        => "Die Übersetzung :translation für das Feld :attribute wurde bereits benutzt.",
 
     /*
      * 2.3.0
      */
-    "required_translation"      => "ie Übersetzung :translation für das Feld :attribute ist erforderlich.",
+    "required_translation"      => "Die Übersetzung :translation für das Feld :attribute ist erforderlich.",
     "customfield_not_cyclic"    => "Das Feld darf nicht von seinen eigenen Kindern abhängig sein.",
 
     /*
      * 2.3.1
      */
-    "is_slug"                   => "Das slug Feld darf nur alphanumerische Zeichen beinhalten. Benutzen sie %Syntax um andere Zeichen zu verwenden",
+    "is_slug"                   => "Das Slug-Feld darf nur alphanumerische Zeichen enthalten. Bitte kodieren Sie Sonderzeichen per Prozent-Codierung.",
     "article_slug_unique"       => "Das slug ist bereits in Verwendung.",
     "captcha_required"          => "Das captcha ist erforderlich.",
     "ticket_number_format"      => "Das Format der Ticketnummer ist ungültig.",
@@ -106,21 +106,21 @@ return array(
      * 2.4.0
      */
     "after_or_equal"            => "Das Datum :attribute muss nach oder gleich dem Datum :date sein.",
-    "before_or_equal"           => "Das Datum :attribute mus bevor oder gleich dem Datum :date sein.",
-    "dimensions"                => "Die Bilddatei :attribute hat ungültige Dimenionen .",
+    "before_or_equal"           => "Das Datum :attribute muss vor oder gleich dem Datum :date sein.",
+    "dimensions"                => "Die Bilddatei :attribute hat ungültige Dimensionen.",
     "distinct"                  => "Das Feld :attribute hat einen doppelten Wert.",
     "file"                      => "Das Feld :attribute muss eine gültige Bilddatei sein.",
     "filled"                    => "Das Feld :attribute muss einen Wert haben.",
     "gt"                        => array(
         "numeric" => "Die Zahl :attribute muss größer sein als :value.",
-        "file"    => "Die Datei :attribute muss größer sein als :value kilobytes.",
-        "string"  => "Der Text :attribute muss länger sein als :value characters.",
+        "file"    => "Die Datei :attribute muss größer sein als :value Kilobytes.",
+        "string"  => "Der Text :attribute muss länger sein als :value Zeichen.",
         "array"   => "Das Array :attribute muss mehr als :value Einträge haben.",
     ),
     "gte"                       => array(
         "numeric" => "Die Zahl :attribute muss gleich oder größer sein als :value.",
-        "file"    => "Die Datei :attribute muss gleich oder grlßer sein als :value kilobytes.",
-        "string"  => "Der Text :attribute mus gleichlang oder länger sein als :value Zeichen.",
+        "file"    => "Die Datei :attribute muss gleich oder größer sein als :value Kilobytes.",
+        "string"  => "Der Text :attribute muss gleich lang oder länger sein als :value Zeichen.",
         "array"   => "Das Array :attribute muss :value Elemente oder mehr haben.",
     ),
     "in_array"                  => "Das Feld :attribute existiert nicht in :other.",
@@ -129,20 +129,20 @@ return array(
     "json"                      => "Das Feld :attribute muss ein gültiger JSON Text sein.",
     "lt"                        => array(
         "numeric" => "Die Zahl :attribute muss kleiner sein als :value.",
-        "file"    => "Die Datei :attribute muss kleiner sein als :value kilobytes.",
-        "string"  => "Der Text :attribute muss kürzer sein als :value characters.",
+        "file"    => "Die Datei :attribute muss kleiner sein als :value Kilobytes.",
+        "string"  => "Der Text :attribute muss kürzer sein als :value Zeichen.",
         "array"   => "Das Array :attribute muss weniger als :value Einträge haben.",
     ),
     "lte"                       => array(
         "numeric" => "Die Zahl :attribute muss gleich oder kleiner sein als :value.",
-        "file"    => "Die Datei :attribute muss gleich oder kleiner sein als :value kilobytes.",
-        "string"  => "Der Text :attribute mus gleichlang oder kürzer sein als :value Zeichen.",
+        "file"    => "Die Datei :attribute muss gleich oder kleiner sein als :value Kilobytes.",
+        "string"  => "Der Text :attribute muss gleich lang oder kürzer sein als :value Zeichen.",
         "array"   => "Das Array :attribute muss :value Elemente oder weniger haben.",
     ),
-    "mimetypes"                 => "Das Feld :attribute muss einen gültige Dateim vom MIME Typ: :values sein.",
+    "mimetypes"                 => "Das Feld :attribute muss eine gültige Datei vom MIME Typ: :values sein.",
     "not_regex"                 => "Das Feld :attribute konnte nicht erfolgreich validiert werden.",
     "present"                   => "Das Feld :attribute muss vorhanden sein.",
-    "required_unless"           => "Das Feld :attribute ist nötig außer :other hat eien Wert von :values.",
+    "required_unless"           => "Das Feld :attribute ist erforderlich, außer :other hat einen Wert von :values.",
     "string"                    => "Das Feld :attribute muss einen Text als Inhalt haben.",
     "timezone"                  => "Das Feld :attribute muss eine gültige Zeitzone sein.",
     "uploaded"                  => "Die Datei :attribute konnte nicht hochgeladen werden.",
@@ -155,30 +155,30 @@ return array(
     /*
      * 2.5.1
      */
-    "valid_twig"                => "Das Feld :attribute ist ungültig. Bitte benutzen sie die 'Vorschau' Funktion für weitere Fehler Details.",
+    "valid_twig"                => "Das Feld :attribute ist ungültig. Bitte benutzen Sie die 'Vorschau' Funktion für weitere Fehler Details.",
 
     /*
      * 3.0.0
      */
     "embed_image"               => "Die Datei :attribute muss vom Typ: jpeg, png, or gif sein.",
-    "starts_with"               => "The :attribute must start with one of the following: :values.",
+    "starts_with"               => "Das Feld :attribute muss mit einem der folgenden Werte beginnen: :values.",
 
     /*
      * 3.5.0
      */
-    "phone"                     => "The supplied phone number is invalid.",
+    "phone"                     => "Die angegebene Telefonnummer ist ungültig.",
 
     /*
      * 4.3.0
      */
-    "is_invalid"                => "The :attribute is invalid.",
+    "is_invalid"                => "Das Feld :attribute ist ungültig.",
 
     /*
      * 5.0.0
      */
-    "current_password"           => "The password is incorrect.",
-    "department_email_per_brand" => "An email account must exist for each brand assigned to this department.",
-    "department_has_a_priority"  => "Department(s) :departments are public and must be assigned to at least one priority.",
+    "current_password"           => "Das Passwort ist falsch.",
+    "department_email_per_brand" => "Für jede dieser Abteilung zugewiesene Marke muss ein E-Mail-Konto vorhanden sein.",
+    "department_has_a_priority"  => "Die Abteilung(en) :departments sind öffentlich und müssen mindestens einer Priorität zugewiesen werden.",
 
     /*
     |--------------------------------------------------------------------------
@@ -196,11 +196,11 @@ return array(
             "exists" => "Die ausgewählte Rolle ist ungültig.",
         ),
         "category.*.type" => array(
-            "required" => "Ein oder mehrere Inhaltstypen müssen für das Self Service Frontend definiert werden.",
+            "required" => "Ein oder mehrere Inhaltstypen müssen für das Self-Service Frontend definiert werden.",
         ),
         "category.*.categories" => array(
-            "required" => "Eine oder mehrere Kategorien sind nötig wenn wenn ein Inhaltstyp ausgewählt ist.",
-            "exists"   => "eine oder mehrere der ausgwählten Kategorien sind ungültig.",
+            "required" => "Eine oder mehrere Kategorien sind erforderlich, wenn ein Inhaltstyp ausgewählt ist.",
+            "exists"   => "Eine oder mehrere der ausgewählten Kategorien sind ungültig.",
         ),
         "brand.*" => array(
             "exists" => "Die ausgewählte Marke ist ungültig.",

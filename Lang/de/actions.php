@@ -27,19 +27,19 @@ return array(
      * 2.2.0
      */
     "unlock_ticket"             => "Ticket entsperren",
-    "update_sla_plan"           => "Aktualisiere SLA plan",
-    "update_subject"            => "Aktualisiere Betreff",
+    "update_sla_plan"           => "SLA-Plan aktualisieren",
+    "update_subject"            => "Betreff aktualisieren",
     "add_user_to_group"         => "Benutzer zur Gruppe hinzufügen",
     "remove_user_from_group"    => "Benutzer aus Gruppe entfernen",
-    "authenticated_operator"    => "Angemledete Operatoren",
-    "all_assigned_operators"    => "Alle zugewiesenen Operatoren",
-    "all_tags"                  => "Alle tags",
+    "authenticated_operator"    => "Angemeldeter Mitarbeiter",
+    "all_assigned_operators"    => "Alle zugewiesenen Mitarbeiter",
+    "all_tags"                  => "Alle Stichworte",
     "subject_placeholder"       => "{{ ticket.subject }} ist der Platzhalter für ein Ticket, falls Sie ein Suffix oder Präfix hinzufügen wollen.",
     "hours_to_be_added"         => "Stunden werden zum Zeitlimit hinzugefügt.",
     "hours_to_be_removed"       => "Stunden werden vom Zeitlimit abgezogen.",
     "hours_to_be_set"           => "Stunden werden der aktuellen Zeit hinzugefügt und als Zeitlimit für das Ticket gesetzt.",
     "only_with_due_time"        => "Wirkt nur auf Tickets mit einem Zeitlimit.",
-    "set_due_time_desc"         => "Leeren sie das Feld um das aktuelle Zeitlimit zu löschen. Man kann mit einer negativen Nummer auch ein Zeitlimit in der Vergangenheit setzen.",
+    "set_due_time_desc"         => "Leeren Sie das Feld um das aktuelle Zeitlimit zu löschen. Man kann mit einer negativen Nummer auch ein Zeitlimit in der Vergangenheit setzen.",
 
     /*
      * 2.3.0
@@ -58,9 +58,9 @@ return array(
      */
     "trigger_webhook"           => "Webhook auslösen",
     "forward_ticket"            => "Ticket weiterleiten",
-    "watch_ticket"              => "Operator wird über Änderungen informiert",
-    "unwatch_ticket"            => "Operator wird nicht mehr über Änderungen informiert",
-    "all_watching_operators"    => "Alle Operatoren die über Änderungen informiert werden",
+    "watch_ticket"              => "Mitarbeiter wird über Änderungen informiert",
+    "unwatch_ticket"            => "Mitarbeiter wird nicht mehr über Änderungen informiert",
+    "all_watching_operators"    => "Alle Mitarbeiter, die über Änderungen informiert werden",
 
     /*
      * 2.5.0
@@ -85,8 +85,8 @@ return array(
     /*
      * 5.5.0
      */
-    "close_ticket"              => "Close ticket",
-    "lock_ticket"               => "Lock ticket",
-    "notify_user"               => "Notify user",
+    "close_ticket"              => "Ticket schließen",
+    "lock_ticket"               => "Ticket sperren",
+    "notify_user"               => "Benutzer benachrichtigen",
 
 );

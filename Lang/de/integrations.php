@@ -5,76 +5,76 @@ return array(
     /*
      * 5.0.0
      */
-    "app_id"                           => "App ID",
-    "app_secret"                       => "App Secret",
-    "api_key"                          => "API Key",
+    "app_id"                           => "App-ID",
+    "app_secret"                       => "App-Secret",
+    "api_key"                          => "API-Schlüssel",
 
-    "algolia_documentation"            => "Please read over our documentation for setting up <a href=':link'>Algolia</a>.",
+    "algolia_documentation"            => "Bitte lesen Sie unsere Dokumentation zum Einrichten von <a href=':link'>Algolia</a>.",
 
-    "facebook_documentation"           => "Please read over our documentation for setting up <a href=':link'>Facebook</a>.",
-    "facebook_redirect_url"            => "The following URL <strong>must</strong> be entered for the Facebook Login 'Valid OAuth redirect URIs':",
+    "facebook_documentation"           => "Bitte lesen Sie unsere Dokumentation zum Einrichten von <a href=':link'>Facebook</a>.",
+    "facebook_redirect_url"            => "Die folgende URL <strong>muss</strong> für das Facebook-Login unter 'Valid OAuth redirect URIs' eingetragen werden:",
 
-    "google_documentation"             => "Please read over our documentation for setting up <a href=':link'>Google</a>.",
-    "google_redirect_url"              => "The following URL(s) <strong>must</strong> be entered for the Google 'Authorized redirect URIs':",
+    "google_documentation"             => "Bitte lesen Sie unsere Dokumentation zum Einrichten von <a href=':link'>Google</a>.",
+    "google_redirect_url"              => "Die folgende(n) URL(s) <strong>müssen</strong> für Google unter 'Authorized redirect URIs' eingetragen werden:",
 
-    "microsoft_documentation"          => "Please read over our documentation for setting up <a href=':link'>Microsoft</a>.",
-    "microsoft_redirect_url"           => "The following URL(s) <strong>must</strong> be entered for the Application 'Redirect URIs':",
+    "microsoft_documentation"          => "Bitte lesen Sie unsere Dokumentation zum Einrichten von <a href=':link'>Microsoft</a>.",
+    "microsoft_redirect_url"           => "Die folgende(n) URL(s) <strong>müssen</strong> für die Anwendung unter 'Redirect URIs' eingetragen werden:",
 
     "pusher_hosting"                   => "Hosting",
     "pusher_cloud"                     => "Cloud (pusher.com)",
-    "pusher_self_hosted"               => "Self-Hosted",
-    "pusher_key"                       => "Key",
+    "pusher_self_hosted"               => "Selbst gehostet",
+    "pusher_key"                       => "Schlüssel",
     "pusher_secret"                    => "Secret",
     "pusher_cluster"                   => "Cluster",
-    "pusher_internal_host"             => "Internal Host",
-    "pusher_internal_host_desc"        => "The internal hostname or IP address of the web socket server.",
-    "pusher_internal_port_desc"        => "The port of the internal web socket server.",
-    "pusher_external_host"             => "External Host",
-    "pusher_external_host_desc"        => "The hostname or IP address of the web socket server that members of the public can access. Please leave blank to default to the hostname of your help desk.",
-    "pusher_external_port_desc"        => "The port of the public web socket server. Please leave blank to default to the same port as your webserver",
-    "pusher_encryption_desc"           => "Enable if you've configured an SSL certificate on the web socket server.",
-    "pusher_unable_to_receive_updates" => "Unable to receive real-time updates. Please check your internet connection.",
+    "pusher_internal_host"             => "Interner Host",
+    "pusher_internal_host_desc"        => "Der interne Hostname oder die IP-Adresse des WebSocket-Servers.",
+    "pusher_internal_port_desc"        => "Der Port des internen WebSocket-Servers.",
+    "pusher_external_host"             => "Externer Host",
+    "pusher_external_host_desc"        => "Der Hostname oder die IP-Adresse des WebSocket-Servers, auf den die Öffentlichkeit zugreifen kann. Bitte leer lassen, um standardmäßig den Hostnamen Ihres Support-Portals zu verwenden.",
+    "pusher_external_port_desc"        => "Der Port des öffentlichen WebSocket-Servers. Bitte leer lassen, um standardmäßig denselben Port wie Ihr Webserver zu verwenden.",
+    "pusher_encryption_desc"           => "Aktivieren, wenn Sie ein SSL-Zertifikat auf dem WebSocket-Server konfiguriert haben.",
+    "pusher_unable_to_receive_updates" => "Echtzeit-Updates können nicht empfangen werden. Bitte überprüfen Sie Ihre Internetverbindung.",
 
-    "steam_documentation"              => "Please read over our documentation for setting up <a href=':link'>Steam</a>.",
+    "steam_documentation"              => "Bitte lesen Sie unsere Dokumentation zum Einrichten von <a href=':link'>Steam</a>.",
 
-    "twilio_account_details"           => "Account Details",
-    "twilio_account_details_desc"      => "The account SID and auth token are available on your account console under 'Account Info'.",
-    "twilio_account_sid"               => "Account SID",
-    "twilio_auth_token"                => "Auth Token",
-    "twilio_api_details"               => "API Details",
-    "twilio_api_details_desc"          => "Search for 'API Keys' in the console. Create an API key, and enter the key and secret below.",
-    "twilio_api_secret"                => "API Secret",
-    "twilio_number_verification"       => "Number Verification",
+    "twilio_account_details"           => "Kontodetails",
+    "twilio_account_details_desc"      => "Die Konto-SID und das Auth-Token finden Sie in Ihrer Konto-Konsole unter 'Account Info'.",
+    "twilio_account_sid"               => "Konto-SID",
+    "twilio_auth_token"                => "Auth-Token",
+    "twilio_api_details"               => "API-Details",
+    "twilio_api_details_desc"          => "Suchen Sie in der Konsole nach 'API Keys'. Erstellen Sie einen API-Schlüssel und geben Sie den Schlüssel und das Secret unten ein.",
+    "twilio_api_secret"                => "API-Secret",
+    "twilio_number_verification"       => "Nummernverifizierung",
 
-    "twitter_api_key_secret"           => "API Key Secret",
+    "twitter_api_key_secret"           => "API-Schlüssel-Secret",
 
     /*
      * 5.3.0
      */
-    "twitter_documentation"            => "Please read over our documentation for setting up <a href=':link'>Twitter</a>.",
-    "twitter_redirect_url"             => "The following URL <strong>must</strong> be entered for the Twitter App 'Callback URL':",
+    "twitter_documentation"            => "Bitte lesen Sie unsere Dokumentation zur Einrichtung von <a href=':link'>X</a>.",
+    "twitter_redirect_url"             => "Die folgende URL <strong>muss</strong> als 'Callback URL' der X-App eingetragen werden:",
 
     /*
      * 5.4.1
      */
     "twilio_verify_sid"                => "Verification SID",
-    "twilio_number_verification_desc"  => "Optional - Enter a verification service SID to enable verification of user phone numbers. This is recommended to avoid a user entering any phone number - the <a target='_blank' href='https://www.twilio.com/verify'>Verify</a> service by Twilio is chargeable.",
-    "twilio_verify_countries"          => "Verify Allowed Countries",
-    "twilio_verify_countries_desc"     => "Restrict phone number verification to specific countries, to reduce costs and the risk of abuse. Phone numbers belonging to countries outside of the permitted list can be manually marked as verified by staff.",
+    "twilio_number_verification_desc"  => "Optional - Geben Sie eine Verification-Service-SID ein, um die Verifizierung der Telefonnummern von Benutzern zu aktivieren. Dies ermöglicht es Benutzern, ihre eigenen eingegebenen Telefonnummern zu verifizieren - der <a target='_blank' href='https://www.twilio.com/verify'>Verify-Dienst</a> von Twilio ist kostenpflichtig.",
+    "twilio_verify_countries"          => "Zugelassene Länder verifizieren",
+    "twilio_verify_countries_desc"     => "Beschränken Sie die Verifizierung von Telefonnummern auf bestimmte Länder, um Kosten und das Missbrauchsrisiko zu reduzieren. Telefonnummern aus Ländern, die nicht auf der zugelassenen Liste stehen, können von Mitarbeitern manuell als verifiziert markiert werden.",
 
     /*
      * 5.5.0
      */
-    "algolia_frontend_search_rate_limit" => "Frontend Search Rate Limiting",
-    "algolia_max_daily"                => "Daily Max Requests",
-    "algolia_max_daily_desc"           => "The maximum number of API calls that can be made to Algolia from the frontend.",
-    "algolia_max_min"                  => "Max Requests Per Minute",
-    "algolia_max_min_desc"             => "The maximum number of API calls that can be made to Algolia from the frontend, per authenticated user / IP address.",
+    "algolia_frontend_search_rate_limit" => "Ratenbegrenzung der Frontend-Suche",
+    "algolia_max_daily"                => "Maximale Anfragen pro Tag",
+    "algolia_max_daily_desc"           => "Die maximale Anzahl an API-Aufrufen, die vom Frontend aus an Algolia gesendet werden können.",
+    "algolia_max_min"                  => "Maximale Anfragen pro Minute",
+    "algolia_max_min_desc"             => "Die maximale Anzahl an API-Aufrufen, die vom Frontend aus an Algolia gesendet werden können, pro authentifiziertem Benutzer / IP-Adresse.",
 
     /*
      * 5.7.0
      */
-    "microsoft_tenant_id"               => "Tenant ID",
-    "microsoft_tenant_id_desc"          => "If you are required to use a single tenant for supported account types, enter the tenant ID; otherwise, leave this field blank. The tenant ID can be found in the Microsoft Entra Identity overview.",
+    "microsoft_tenant_id"               => "Tenant-ID",
+    "microsoft_tenant_id_desc"          => "Wenn Sie für die unterstützten Kontotypen einen einzelnen Tenant verwenden müssen, geben Sie die Tenant-ID ein; andernfalls lassen Sie dieses Feld leer. Die Tenant-ID finden Sie in der Übersicht von Microsoft Entra Identity.",
 
 );
