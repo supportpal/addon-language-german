@@ -6,7 +6,7 @@ return array(
     "user_details"                  => "Benutzer Details",
     "add_user"                      => "Benutzer hinzufügen",
     "account_active"                => "Account aktiv",
-    "account_active_desc"           => "Toggle to enable and disable access to authenticated sections.",
+    "account_active_desc"           => "Umschalten, um den Zugriff auf authentifizierte Bereiche zu aktivieren oder zu deaktivieren.",
 
     "op_settings_dept_desc"         => "Abteilung, die ein Mitarbeiter bearbeiten kann.",
 
@@ -15,18 +15,18 @@ return array(
     "owner"                         => "Besitzer",
     "manager"                       => "Manager",
     "access_level"                  => "Zugriffslevel",
-    "access_level_desc"             => "Define the access level for the user in the organisation, based on the following schedule:<br /><strong>Manager</strong> - Can view tickets opened by all users in the organisation and manage users in the organisation<br /><strong>User</strong> - Can view tickets only opened by self",
-    "manage_organisation"           => "Bearbeite Firma",
+    "access_level_desc"             => "Legt die Zugriffsebene für den Benutzer in der Organisation fest, basierend auf den folgenden Informationen:<br /><strong>Manager</strong> - Kann von allen Benutzern der Organisation erstellte Tickets einsehen und Benutzer der Organisation verwalten<br /><strong>Benutzer</strong> - Kann nur selbst erstellte Tickets einsehen",
+    "manage_organisation"           => "Firma bearbeiten",
     "leave_organisation"            => "Firma verlassen",
     "user_membership"               => "Mitgliedschaft",
     "transfer_ownership"            => "Inhaberschaft übertragen",
-    "transfer_ownership_desc"       => "As the current owner of the organisation, you cannot be removed as a manager and only you can delete the organisation. You may transfer the ownership of the organisation to someone else, be aware that this action cannot be reversed.",
-    "transfer_ownership_operator"   => "Only the owner can delete the organisation and cannot be removed from it. Use this option to change the ownership to another user in the organisation.",
+    "transfer_ownership_desc"       => "Als aktueller Eigentümer der Organisation können Sie nicht als Manager entfernt werden, und nur Sie können die Organisation löschen. Sie können die Eigentümerschaft der Organisation auf eine andere Person übertragen. Beachten Sie, dass diese Aktion nicht rückgängig gemacht werden kann.",
+    "transfer_ownership_operator"   => "Nur der Eigentümer kann die Organisation löschen und kann nicht aus ihr entfernt werden. Verwenden Sie diese Option, um die Eigentümerschaft auf einen anderen Benutzer in der Organisation zu übertragen.",
     "start_typing_name"             => "Tippen Sie einen Namen ein...",
-    "organisation_desc"             => "Each organisation can have <strong>managers</strong>, who can manage users and read and reply to other's tickets, and <strong>users</strong>, who can open tickets, but can't read or reply to other's tickets.",
-    "organisation_operator_desc"    => "Add existing users to this organisation by clicking \"Add User\" and searching for their name, note that adding a user will remove any links they have with another organisation.",
-    "organisation_user_desc"        => "<strong>Manager</strong> - Can manage other users and view &amp; reply to other user's tickets.<br /><strong>User</strong> - Can only open tickets on behalf of organisation and reply to own tickets.",
-    "send_password_reset"           => "Send Password Reset Link",
+    "organisation_desc"             => "Jede Organisation kann <strong>Manager</strong> haben, die Benutzer verwalten sowie die Tickets anderer lesen und beantworten können, und <strong>Benutzer</strong>, die Tickets erstellen, aber die Tickets anderer nicht lesen oder beantworten können.",
+    "organisation_operator_desc"    => "Fügen Sie dieser Organisation vorhandene Benutzer hinzu, indem Sie auf \"Benutzer hinzufügen\" klicken und nach deren Namen suchen. Beachten Sie, dass durch das Hinzufügen eines Benutzers alle Verknüpfungen entfernt werden, die dieser mit einer anderen Organisation hat.",
+    "organisation_user_desc"        => "<strong>Manager</strong> - Kann andere Benutzer verwalten sowie die Tickets anderer Benutzer anzeigen &amp; beantworten.<br /><strong>Benutzer</strong> - Kann nur Tickets im Namen der Organisation erstellen und eigene Tickets beantworten.",
+    "send_password_reset"           => "Link zum Zurücksetzen des Passworts senden",
 
     "profile"                       => "Profil",
 
@@ -43,25 +43,25 @@ return array(
     "signed_up"                     => "Registriert",
     "last_active"                   => "Zuletzt aktiv",
 
-    "forgot_password"               => "Passswort vergessen?",
+    "forgot_password"               => "Passwort vergessen?",
     "reset_password"                => "Passwort zurücksetzen",
     "set_password"                  => "Neues Passwort setzen",
-    "please_set_password"           => "Please set your new password below.",
-    "missing_email_or_reset"        => "Fehlende E-Mail oder fehlerhafter Sicherheitsschlüsseö.",
+    "please_set_password"           => "Bitte legen Sie unten Ihr neues Passwort fest.",
+    "missing_email_or_reset"        => "Fehlende E-Mail oder fehlerhafter Sicherheitsschlüssel.",
 
     "firstname"                     => "Vorname",
     "lastname"                      => "Nachname",
-    "formatted_name"                => "Formatted Name",
+    "formatted_name"                => "Formatierter Name",
     "country"                       => "Land",
     "avatar"                        => "Profilbild",
     "confirm_password"              => "Passwort bestätigen",
 
     "group"                         => "Benutzergruppe|Benutzergruppen",
     "group_members"                 => "Gruppenmitglieder",
-    "operator_group"                => "Mitarbeitergruppe|Mitarbeitergruppem",
+    "operator_group"                => "Mitarbeitergruppe|Mitarbeitergruppen",
     "add_group"                     => "Zur Gruppe hinzufügen",
 
-    "customfield"                   => "benutzerdefiniertes Feld|benutzerdefinierte Felder",
+    "customfield"                   => "Benutzerdefiniertes Feld|Benutzerdefinierte Felder",
     "customfield_order"             => "Zeilen per Drag and Drop verschieben um die Reihenfolge anzupassen.",
 
     "role"                          => "Rolle|Rollen",
@@ -76,13 +76,12 @@ return array(
 
     "ldap_account"                  => "LDAP Konto|LDAP Konten",
     "ldap_operator_desc"            => "Neuen Mitarbeiter erstellen oder bestehenden Mitarbeiter auswählen.",
-    "ldap_server"                   => "LDAP Server",
     "ldap_server_desc"              => "Der Hostname des Servers. Alternativ kann auch die komplette LDAP-Adresse angegeben werden. So verbindet die Adresse ldaps://ldap.server:1234/ per SSL zu Port 1234.",
-    "ldap_username"                 => "LDAP Username",
-    "ldap_username_desc"            => "Der Benutzername des Mitarbeiter, den er zur Anmeldung am benutzt.",
+    "ldap_username"                 => "LDAP-Benutzername",
+    "ldap_username_desc"            => "Der Benutzername des Mitarbeiters, den dieser zur Anmeldung nutzt.",
     "ldap_rdn"                      => "LDAP, RDN oder DN",
-    "ldap_rdn_desc"                 => "The distinguished name for the LDAP username, for example: cn=Sample User,ou=people,dc=example,dc=com",
-    "ldap_details"                  => "LDAP Details",
+    "ldap_rdn_desc"                 => "Der Distinguished Name für den LDAP-Benutzernamen, zum Beispiel: cn=Sample User,ou=people,dc=example,dc=com",
+    "ldap_details"                  => "LDAP-Details",
 
     "operator_details"              => "Mitarbeiter-Details",
 
@@ -95,8 +94,8 @@ return array(
     "user_name_format"              => "Namensformat",
     "first_last"                    => "Vorname",
     "last_first"                    => "Nachname",
-    "first_l"                       => "First L.",
-    "f_last"                        => "F. Last",
+    "first_l"                       => "Vorname N.",
+    "f_last"                        => "V. Nachname",
     "password_length"               => "Passwortlänge",
     "password_length_desc"          => "Minimale Passwortlänge.",
     "password_strength"             => "Passwortstärke",
@@ -117,18 +116,18 @@ return array(
     "notifications"                 => "Benachrichtigungen",
     "two_fa_success_disabled"       => "Zwei-Faktor Authentifizierung wurde deaktiviert.",
     "two_fa_success_enabled"        => "Zwei-Faktor Authentifizierung wurde aktiviert.",
-    "two_fa_incorrect"              => "Der eingegebene Code ist falsch. Bitte überprüfen Sie Ihre Code.",
+    "two_fa_incorrect"              => "Der eingegebene Code ist falsch. Bitte überprüfen Sie Ihren Code.",
     "two_fa_enabled"                => "2FA aktiviert",
     "two_fa_disable"                => "Bitte bestätigen Sie, dass Sie die 2FA deaktivieren möchten.",
     "two_fa_enable"                 => "Um die 2FA zu aktivieren, richten Sie bitte das Konto auf Ihrem Smartphone und verifizieren es mit den aufgeführten Daten.",
     "verify_code"                   => "Code überprüfen",
     "verify_and_disable"            => "Überprüfen & Deaktivieren",
     "verify_and_enable"             => "Überprüfen & Aktivieren",
-    "verify_code_desc"              => "Bitte gebene Sie einen gültigen Code ein, um die 2FA zu deaktivieren.",
-    "qr_code"                       => "QR Code",
-    "two_fa_code"                   => "2FA Code",
+    "verify_code_desc"              => "Bitte geben Sie einen gültigen Code ein, um die 2FA zu deaktivieren.",
+    "qr_code"                       => "QR-Code",
+    "two_fa_code"                   => "2FA-Code",
     "two_fa_secret"                 => "2FA Geheimnis",
-    "two_fa_secret_desc"            => "Pbitte speichern sie das 'Geheimins' an einem sicheren Ort, um bei einem Verlust den 2FA wiederherstellen zu können.",
+    "two_fa_secret_desc"            => "Bitte speichern Sie das 'Geheimnis' an einem sicheren Ort, um bei einem Verlust die 2FA wiederherstellen zu können.",
     "desktop_notifications"         => "Desktop Benachrichtigungen",
     "browser_notifications"         => "Browser Benachrichtigungen",
 
@@ -151,9 +150,9 @@ return array(
     "email_history"                 => "E-Mail Verlauf",
     "view_email"                    => "E-Mail anzeigen",
 
-    "ban_after_count"               => "IP nach fehlgeschlaften Anmeldungen sperren",
+    "ban_after_count"               => "IP nach fehlgeschlagenen Anmeldungen sperren",
     "ban_after_count_user"          => "Die Anzahl der fehlgeschlagenen Logins nach der die Benutzer IP Adresse gesperrt wird. Die Benutzer können sich dann für die konfigurierte Zeitspanne nicht mehr anmelden. Den Wert auf 0 setzen deaktiviert die Funktionalität.",
-    "ban_after_count_operator"      => "Die Anzahl der fehlgeschlagenen Logins nach der die Client IP Adresse gesperrt wird. Die Operateure haben danach von dieser IP aus keinen Zugriff mehr auf das Operator Panel und die API für einen konfigurierten Zeitraum. Den Wert auf 0 setzen deaktiviert die Funktionalität.",
+    "ban_after_count_operator"      => "Die Anzahl der fehlgeschlagenen Logins nach der die Client IP Adresse gesperrt wird. Die Mitarbeiter haben danach von dieser IP aus keinen Zugriff mehr auf den Mitarbeiter-Bereich und die API für einen konfigurierten Zeitraum. Den Wert auf 0 setzen deaktiviert die Funktionalität.",
     "ban_length"                    => "Dauer der IP-Sperre",
     "ban_length_desc"               => "Die Dauer der IP Sperre wenn das konfigurierte Maximum an fehlgeschlagenen Logins erreicht wurde in einem Tag.",
     "n_failed_logins"               => ":count fehlgeschlagene Logins in 24h",
@@ -168,8 +167,8 @@ return array(
     "all_operators"                 => "Alle Mitarbeiter",
     "email_per_batch"               => "E-Mails pro Bündel",
     "email_per_batch_desc"          => "Die Anzahl der E-Mails, die zusammen übertragen werden.",
-    "batch_interval"                => "Übertraguns-Intervall",
-    "batch_interval_desc"           => "Die Pause zwischen Übertraguns-Intervallen (in Minuten) - 1 Minute ist das Minimum.",
+    "batch_interval"                => "Übertragungs-Intervall",
+    "batch_interval_desc"           => "Die Pause zwischen Übertragungs-Intervallen (in Minuten) - 1 Minute ist das Minimum.",
     "select_user_groups"            => "Benutzer-/Mitarbeitergruppe oder E-Mail eingeben...",
     "mass_email_sending_time"       => "Es wird ca. :time benötigen, um alle E-Mail zu senden.",
     "organisations_enabled"         => "Firma aktiviert",
@@ -183,26 +182,26 @@ return array(
     /*
      * 2.1.0
      */
-    "organisation_customfield"      => "Benuterdefiniertes Feld der Organisation|Benutzerdefinierte Felder der Organisation",
+    "organisation_customfield"      => "Benutzerdefiniertes Feld der Organisation|Benutzerdefinierte Felder der Organisation",
     "recent_users"                  => "Kürzlich aktive Benutzer",
     "recent_organisations"          => "Kürzlich aktive Organisationen",
-    "group_brand_desc"              => "Wählen sie die Marken aus auf die diese Gruppe Zugriffsbereichtigungen erhält.",
-    "select_operators"              => "Wähle Operator(en)...",
-    "select_groups"                 => "Wähle Gruppe(n)...",
-    "group_department_desc"         => "Weise allen Mitgliedern dieser Gruppe den Abteilungen zu. Operateure können auch individuell den Abteilungen zugewiesen werden.",
+    "group_brand_desc"              => "Wählen Sie die Marken aus, auf die diese Gruppe Zugriffsberechtigung erhält.",
+    "select_operators"              => "Wählen Sie Mitarbeiter aus...",
+    "select_groups"                 => "Wählen Sie Gruppe(n) aus...",
+    "group_department_desc"         => "Weisen Sie allen Mitgliedern dieser Gruppe den Abteilungen zu. Mitarbeiter können auch individuell den Abteilungen zugewiesen werden.",
     "op_settings_group_dept"        => "Durch Gruppen zugewiesen:",
-    "op_settings_group_dept_desc"   => "Diese Abteilungen wurden automatisch vererbt durch die oben ausgewählten Gruppen. Um durch eine Gruppe zuzuweisen müss entweder die Gruppe oder die Abteilungseinstellugen geändert werden.",
+    "op_settings_group_dept_desc"   => "Diese Abteilungen wurden automatisch vererbt durch die oben ausgewählten Gruppen. Um durch eine Gruppe zuzuweisen, muss entweder die Gruppe oder die Abteilungseinstellungen geändert werden.",
     "op_settings_individual_dept"   => "Individuell zugewiesen:",
     "op_settings_individual_dept_desc" => "Diese Abteilungen sind zusätzlich zu den durch Gruppen zugewiesenen Abteilungen.",
-    "also_registered_other_brand"   => "Dieser Benuter ist auch in den Marke :brands registriert.|Dieser Benutzer ist auch in den Marken :brands registriert.",
-    "view_organisation"             => "Zeige die Organisation",
+    "also_registered_other_brand"   => "Dieser Benutzer ist auch in der Marke :brands registriert.|Dieser Benutzer ist auch in den Marken :brands registriert.",
+    "view_organisation"             => "Organisation anzeigen",
     "new_owner"                     => "Neuer Besitzer",
-    "operator_role"                 => "Operator Rolle|Operator Rollen",
-    "manage_users"                  => "Verwalte Benutzer",
-    "manage_organisations"          => "Verwalte Organisationen",
-    "manage_operators"              => "Verwalte Operatoren",
+    "operator_role"                 => "Mitarbeiter-Rolle|Mitarbeiter-Rollen",
+    "manage_users"                  => "Benutzer verwalten",
+    "manage_organisations"          => "Organisationen verwalten",
+    "manage_operators"              => "Mitarbeiter verwalten",
     "user_profile"                  => "Benutzer Profil",
-    "organisation_access_level"     => "Organisationszugriffs Nievaeu",
+    "organisation_access_level"     => "Organisationszugriffsebene",
     "organisation_notifications"    => "Organisations Benachrichtigungen",
     "organisation_users"            => "Organisations Benutzer",
     "organisation_users_ticket"     => "Oben ist eine Liste der Organisations Besitzer die auch bei Ticket Updates informiert werden.",
@@ -213,18 +212,18 @@ return array(
     "change_password"               => "Passwort ändern",
     "current_password"              => "Aktuelles Passwort",
     "new_password"                  => "Neues Passwort",
-    "personal_confirm_password"     => "Bitte geben sie das Passwort erneut ein, um es zu bestätigen. Dadurch sinkt auch die Wahrscheinlichkeit für Tippfehler",
+    "personal_confirm_password"     => "Bitte geben Sie das Passwort erneut ein, um es zu bestätigen. Dadurch sinkt auch die Wahrscheinlichkeit für Tippfehler.",
 
     /*
      * 2.1.2
      */
-    "search_for_user_operator"      => "Suche nach Benutzern oder Operatoren...",
+    "search_for_user_operator"      => "Suche nach Benutzern oder Mitarbeitern...",
 
     /*
      * 2.2.0
      */
     "user_name_format_desc"         => "Das Format für die Anzeige der Benutzername im System.",
-    "operator_name_format_desc"     => "Das Format für die Anzeige der Operatornamen im System.",
+    "operator_name_format_desc"     => "Das Format für die Anzeige der Mitarbeiternamen im System.",
 
     /*
      * 2.3.0
@@ -236,14 +235,14 @@ return array(
      * 2.3.1
      */
     "social_login"                  => "Social Login",
-    "login_via"                     => "Log in via :provider",
+    "login_via"                     => "Anmelden über :provider",
     "idp"                           => "IdP",
-    "social_linking_login"          => "Bitte melden sie sich an um die Verbindung mit 'Social Login' zu bestätigen.",
-    "social_linking_register"       => "Bitte füllen sie das Formular aus um Ihre Registration zu vervollständigen. Ihr 'Social Login' wird automatisch verknüpft.",
+    "social_linking_login"          => "Bitte melden Sie sich an um die Verbindung mit 'Social Login' zu bestätigen.",
+    "social_linking_register"       => "Bitte füllen Sie das Formular aus um Ihre Registration zu vervollständigen. Ihr 'Social Login' wird automatisch verknüpft.",
     "already_registered"            => "Bereits registriert?",
     "linked_accounts"               => "Verknüpfte Konten",
-    "unlink_account"                => "Verknüpfung :record vom Konten entfernen",
-    "unlink_account_warning"        => "Nach dem entfernen der Verknügung können sie diesen 'Social Login' nicht mehr für die Anmeldung nutzen.",
+    "unlink_account"                => "Verknüpfung :record vom Konto entfernen",
+    "unlink_account_warning"        => "Nach dem Entfernen der Verknüpfung können Sie diesen 'Social Login' nicht mehr für die Anmeldung nutzen.",
     "failed_login"                  => "fehlgeschlagner Login|fehlgeschlagene Logins",
 
     /*
@@ -251,46 +250,46 @@ return array(
      */
     "must_have_permission"          => "muss die Berechtigung \":permission\" haben",
     "deleted_user"                  => "Gelöschter Benutzer",
-    "access_level_not_owner"        => "Die Berechtigung des Organisationsbesitzers kann nicht geändert werden. Transferieren sie die Besitzrolle zuerst über Organisation anzeigen, 'Benutzer' tab.",
+    "access_level_not_owner"        => "Die Berechtigung des Organisationsbesitzers kann nicht geändert werden. Transferieren Sie die Besitzrolle zuerst über Organisation anzeigen, 'Benutzer' tab.",
 
     /*
      * 2.4.1
      */
-    "select_or_new_organisation"    => "Wähle eine existierende Organisation oder geben sie eine neue ein...",
+    "select_or_new_organisation"    => "Wählen Sie eine existierende Organisation oder geben Sie eine neue ein...",
 
     /*
      * 2.5.0
      */
-    "success_register_desc"         => "Vielen Dank für das registrieren ihres Kontos. Bitte überpüfen sie Ihren Posteingang oder Spam Ordner um das Konto fertigzustellen.",
-    "use_gravatar"                  => "Benutze Gravatar",
-    "use_gravatar_desc"             => "Gravatar ist ein externer Dienst, sie beschreiben sich so: Ihr Gravatar ist ein Bild, das sie von Website zu Website begleitet. Es erscheint neben ihrem Namen, wenn sie Kommentare oder Beiträge in Blogs verfassen. Avatare helfen dabei, ihre Beiträge in Blogs und Webforen zu identifizieren, warum also nicht auf jeder Website?.",
+    "success_register_desc"         => "Vielen Dank für das Registrieren Ihres Kontos. Bitte überprüfen Sie Ihren Posteingang oder Spam-Ordner um das Konto fertigzustellen.",
+    "use_gravatar"                  => "Gravatar benutzen",
+    "use_gravatar_desc"             => "Gravatar ist ein externer Dienst, sie beschreiben sich so: Ihr Gravatar ist ein Bild, das Sie von Website zu Website begleitet. Es erscheint neben Ihrem Namen, wenn Sie Kommentare oder Beiträge in Blogs verfassen. Avatare helfen dabei, Ihre Beiträge in Blogs und Webforen zu identifizieren, warum also nicht auf jeder Website?.",
 
     /*
      * 2.6.0
      */
-    "continue_to_login"             => "Folgen sie dem Link um sich <a href=':route'>anzumelden</a>.",
-    "reset_request_desc"            => "Falls ein passendes Konteo gefunden wurde, ist ein Email mit einem Link zum Passwortzurücksetzen geschickt worden.",
+    "continue_to_login"             => "Folgen Sie dem Link um sich <a href=':route'>anzumelden</a>.",
+    "reset_request_desc"            => "Falls ein passendes Konto gefunden wurde, ist ein Email mit einem Link zum Passwortzurücksetzen geschickt worden.",
 
     /*
      * 3.0.0
      */
-    "ldap_linked_error"             => "Das Konteo wurde für LDAP basierten Login eingerichtet, bitte geben sie den LDAP Benutzernamen an.",
-    "operator_message"              => "Operator Nachrichten",
-    "force_two_fa"                  => "Erwzinge 2FA",
-    "force_two_fa_desc"             => "Erwzinge Zwei Faktor Authentisierung auf allen Konten. Jedes Konto ohne ausgerollten  zweiten Faktor durchläuft automatisch beim nächsten Login den Prozess.",
-    "two_fa_required"               => "Zwei Faktor Autthentisierung (2FA) ist nötig. Bitte folgen sie den Anweisungen unten um fortzufahren.",
+    "ldap_linked_error"             => "Das Konto wurde für LDAP basierten Login eingerichtet, bitte geben Sie den LDAP Benutzernamen an.",
+    "operator_message"              => "Mitarbeiter-Nachrichten",
+    "force_two_fa"                  => "Erzwinge 2FA",
+    "force_two_fa_desc"             => "Erzwinge Zwei-Faktor-Authentifizierung auf allen Konten. Jedes Konto ohne aktivierte Zwei-Faktor-Authentifizierung durchläuft automatisch beim nächsten Login den Prozess.",
+    "two_fa_required"               => "Zwei-Faktor-Authentifizierung (2FA) ist erforderlich. Bitte folgen Sie den Anweisungen unten um fortzufahren.",
     "two_fa_user_enable"            => "Die Benutzer können 2FA in ihren Profileinstellungen aktivieren.",
 
     /*
      * 3.3.0
      */
-    "social_login_desc"             => "Allow users to register and log in using their social account.",
-    "manage_social_login_options"   => "To add or manage social login options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+    "social_login_desc"             => "Erlauben Sie Benutzern, sich mit ihrem Social-Media-Konto zu registrieren und anzumelden.",
+    "manage_social_login_options"   => "Um Social-Login-Optionen hinzuzufügen oder zu verwalten, besuchen Sie bitte die Seite <a href=\":route\">Drittanbieter-Integrationen</a>.",
 
     /*
      * 3.4.0
      */
-    "two_fa_verify_desc"            => "Installieren sie eine der folgenden Applikationen und scannen sie damit den QR Code oder geben sie den geheimen Schlüssel ein. Das richtet ihr Gerät für dieses Konto ein, dann können sie das Konto sehen und es generiert einen 6 stelligen Code den sie eingeben müssen um die Einrichtung abzuschließen. Klicken auf Prüfen bevor der Code abläuft. Die Uhrzeit des Servers muss mit NTP sychronisiert sein damit das funktioniert.",
+    "two_fa_verify_desc"            => "Installieren Sie eine der folgenden Applikationen und scannen Sie damit den QR Code oder geben Sie den geheimen Schlüssel ein. Das richtet Ihr Gerät für dieses Konto ein, dann können Sie das Konto sehen und es generiert einen 6 stelligen Code den Sie eingeben müssen um die Einrichtung abzuschließen. Klicken Sie auf Prüfen bevor der Code abläuft. Die Uhrzeit des Servers muss mit NTP synchronisiert sein damit das funktioniert.",
     "two_fa_successfully_enabled"   => "Zwei Faktor Authentifizierung (2FA) wurde erfolgreich eingerichtet und aktiviert.",
 
     /*
@@ -302,111 +301,120 @@ return array(
      * 3.6.0
      */
     "security_settings"             => "Sicherheitseinstellungen",
-    "security_settings_desc"        => "Passwort änder, 2FA aktivieren und andere Sicherheitsrelevante Einstellungen für Ihr Konto.",
+    "security_settings_desc"        => "Passwort ändern, 2FA aktivieren und andere sicherheitsrelevante Einstellungen für Ihr Konto.",
     "active_sessions"               => "Aktive Sessions",
-    "active_sessions_desc"          => "Liste der Sitzungen mit Gerät auf denen sie angemeldet sind, sie können die Sitzungen löschen.",
+    "active_sessions_desc"          => "Liste der Sitzungen mit Gerät auf denen Sie angemeldet sind, Sie können die Sitzungen löschen.",
     "current_session"               => "Aktive Session",
     "logged_in"                     => "Angemeldet",
-    "revoke_session_desc"           => "Das löschen der Sitzung wird auch alle 'erinnere dich an mich tokens löschen'.",
+    "revoke_session_desc"           => "Das Löschen der Sitzung wird auch alle 'Angemeldet bleiben'-Tokens löschen.",
 
     /*
      * 4.0.0
      */
-    "verify_phone_number"           => "Bestätige die Telefonnummer",
-    "verify_phone_method"           => "Wählen sie eine Methode um Ihre Telefonnummer zu bestätigen.",
-    "verify_phone_code_sent"        => "Ein Bestätigungscode wurde an Ihr Telefon gesendet, Geben sie ihn bitte unten ein.",
-    "verify_phone_code_send_error"  => "Fehler beim Senden des Bestätigungscodes. Bitte versuchen sie es später wieder.",
+    "verify_phone_number"           => "Telefonnummer bestätigen",
+    "verify_phone_method"           => "Wählen Sie eine Methode um Ihre Telefonnummer zu bestätigen.",
+    "verify_phone_code_sent"        => "Ein Bestätigungscode wurde an Ihr Telefon gesendet, geben Sie ihn bitte unten ein.",
+    "verify_phone_code_send_error"  => "Fehler beim Senden des Bestätigungscodes. Bitte versuchen Sie es später wieder.",
     "verify_phone_code_error"       => "Das Prüfen des Bestätigungscodes schlug fehl.",
     "logged_in_as"                  => "Angemeldet als :name",
 
     /*
      * 4.1.0
      */
-    "merge_users"                   => "Merge Users",
-    "merge_user_into"               => "Select user to merge into",
-    "merge_organisations"           => "Merge Organisations",
-    "merge_organisation_into"       => "Select organisation to merge into",
-    "search_for_organisation"       => "Search for organisation...",
+    "merge_users"                   => "Benutzer zusammenführen",
+    "merge_user_into"               => "Benutzer auswählen, in den zusammengeführt werden soll",
+    "merge_organisations"           => "Organisationen zusammenführen",
+    "merge_organisation_into"       => "Organisation auswählen, in die zusammengeführt werden soll",
+    "search_for_organisation"       => "Nach Organisation suchen...",
 
     /*
      * 4.2.0
      */
-    "reply_template"                => "Reply Template|Reply Templates",
-    "reply_template_desc"           => "Set a personal reply template that prefills the textarea when starting to compose a reply, with the option to customise based on the brand/department of the ticket. The default reply template is used when a reply template for a specific department and/or brand cannot be found.",
-    "operator_reply_template"       => "Operator Reply Template|Operator Reply Templates",
-    "ticket_reply_template_desc"    => "Set the operator's default ticket reply template.",
-    "operator_reply_template_desc"  => "Further reply templates for specific departments and/or brands can be set in the <a href=':route' target='_blank'>Operator Reply Templates</a> section.",
+    "reply_template"                => "Antwortvorlage|Antwortvorlagen",
+    "reply_template_desc"           => "Legen Sie eine persönliche Antwortvorlage fest, die das Textfeld vorbefüllt, wenn Sie beginnen, eine Antwort zu verfassen, mit der Möglichkeit, sie je nach Marke/Abteilung des Tickets anzupassen. Die Standard-Antwortvorlage wird verwendet, wenn keine Antwortvorlage für eine bestimmte Abteilung und/oder Marke gefunden werden kann.",
+    "operator_reply_template"       => "Mitarbeiter-Antwortvorlage|Mitarbeiter-Antwortvorlagen",
+    "ticket_reply_template_desc"    => "Legen Sie die Standard-Ticket-Antwortvorlage des Mitarbeiters fest.",
+    "operator_reply_template_desc"  => "Weitere Antwortvorlagen für bestimmte Abteilungen und/oder Marken können im Bereich <a href=':route' target='_blank'>Mitarbeiter-Antwortvorlagen</a> festgelegt werden.",
 
     /*
      * 5.0.0
      */
-    "verified"                      => "Verified",
-    "unverified"                    => "Unverified",
-    "unverified_email_desc"         => "User has not verified ownership of this email address.",
-    "unverified_account"            => "Please check your email to verify ownership of this email address.",
+    "verified"                      => "Verifiziert",
+    "unverified"                    => "Nicht verifiziert",
+    "unverified_email_desc"         => "Der Benutzer hat die Inhaberschaft dieser E-Mail-Adresse nicht verifiziert.",
+    "unverified_account"            => "Bitte prüfen Sie Ihre E-Mails, um die Inhaberschaft dieser E-Mail-Adresse zu verifizieren.",
     "changing_email_desc"           => "Das ändern der Benutzer Email Adresse zwingt ihn dazu sie beim nächsten Login zu bestätigen.",
     "unregistered_user_desc"        => "Dieser Benutzer wurde automatisch erstellt und besitzt kein Passwort. Sie können unten ein Bestätigungs/Willkommens Mail auslösen damit der Benutzer die Einrichtung seines Kontos vervollständigt.",
-    "send_verification_email"       => "Send Verification Email",
-    "mark_as_verified"              => "Mark as Verified",
-    "password_reset_already"        => "Sie haben bereits den Besitz dieser Email Adresse bestätigt, fahren sie mit dem Login fort.",
-    "verification_email_resent"     => "A new verification email has been sent and should arrive in a few minutes.",
-    "verified_set_password_desc"    => "Thank you for verifying ownership of your email, please enter a password below to finish your account set up.",
-    "thank_you_for_verifying_email" => "Thank you for verifying ownership of your email address.",
-    "organisation_domain_desc"      => "Geben sie jede Domäne ein die zur Organisation gehört. Benutzer deren Mailadresse mit der Domäne überinstimmt werden automatisch Mitglied der Organisation. Wir empfehlen den Zugehörigkeit des Benutzers zur Firma zu prüfen, und sicherzustellen dass die Email Adresse bestätigt wurde.",
-    "resend_verification_email"     => "Resend Verification Email",
-    "updating_email_address"        => "Um das ändern der Email Adresse abzuschließen muss sie bestätigt werden. Es wurde ein Mail an :email geschickt, folgen sie den Anweisungen im Mail um die Adresse zu bestätigen.",
-    "email_verification"            => "Email Verification",
-    "email_verification_already_in_use" => "The email address is already in use by another account.",
-    "verification_link_expired"     => "The verification link may have expired. If your link isn't working for any reason, please request a new one.",
-    "user_invited_to_organisation"  => "The user has been invited to the organisation by email, they must click the link and set up a password to complete their account setup.",
-    "invite_user"                   => "Invite User",
-    "organisation_invite_user"      => "Invite user to organisation",
-    "user_already_in_organisation"  => "The user is already part of an organisation.",
-    "invitations"                   => "Invitation|Invitations",
-    "invite_exists"                 => "The user has already been invited.",
-    "success_join"                  => "You are now a member of the organisation :name.",
-    "error_join"                    => "The invitation code could not be found, or has expired.",
-    "verify_to_view_tickets"        => "Please verify all additional email addresses or remove unverified email addresses under your account profile.",
+    "send_verification_email"       => "Verifizierungs-E-Mail senden",
+    "mark_as_verified"              => "Als verifiziert markieren",
+    "password_reset_already"        => "Sie haben bereits den Besitz dieser Email Adresse bestätigt, fahren Sie mit dem Login fort.",
+    "verification_email_resent"     => "Eine neue Verifizierungs-E-Mail wurde gesendet und sollte in wenigen Minuten eintreffen.",
+    "verified_set_password_desc"    => "Vielen Dank für die Verifizierung der Inhaberschaft Ihrer E-Mail. Bitte geben Sie unten ein Passwort ein, um die Einrichtung Ihres Kontos abzuschließen.",
+    "thank_you_for_verifying_email" => "Vielen Dank für die Verifizierung der Inhaberschaft Ihrer E-Mail-Adresse.",
+    "organisation_domain_desc"      => "Geben Sie jede Domäne ein die zur Organisation gehört. Benutzer deren Mailadresse mit der Domäne übereinstimmt werden automatisch Mitglied der Organisation. Wir empfehlen den Zugehörigkeit des Benutzers zur Firma zu prüfen, und sicherzustellen dass die Email Adresse bestätigt wurde.",
+    "resend_verification_email"     => "Verifizierungs-E-Mail erneut senden",
+    "updating_email_address"        => "Um das Ändern der Email Adresse abzuschließen muss sie bestätigt werden. Es wurde ein Mail an :email geschickt, folgen Sie den Anweisungen im Mail um die Adresse zu bestätigen.",
+    "email_verification"            => "E-Mail-Verifizierung",
+    "email_verification_already_in_use" => "Die E-Mail-Adresse wird bereits von einem anderen Konto verwendet.",
+    "verification_link_expired"     => "Der Verifizierungslink ist möglicherweise abgelaufen. Falls Ihr Link aus irgendeinem Grund nicht funktioniert, fordern Sie bitte einen neuen an.",
+    "user_invited_to_organisation"  => "Der Benutzer wurde per E-Mail in die Organisation eingeladen. Er muss auf den Link klicken und ein Passwort festlegen, um die Einrichtung seines Kontos abzuschließen.",
+    "invite_user"                   => "Benutzer einladen",
+    "organisation_invite_user"      => "Benutzer in Organisation einladen",
+    "user_already_in_organisation"  => "Der Benutzer ist bereits Teil einer Organisation.",
+    "invitations"                   => "Einladung|Einladungen",
+    "invite_exists"                 => "Der Benutzer wurde bereits eingeladen.",
+    "success_join"                  => "Sie sind nun Mitglied der Organisation :name.",
+    "error_join"                    => "Der Einladungscode konnte nicht gefunden werden oder ist abgelaufen.",
+    "verify_to_view_tickets"        => "Bitte verifizieren Sie alle zusätzlichen E-Mail-Adressen oder entfernen Sie nicht verifizierte E-Mail-Adressen in Ihrem Kontoprofil.",
 
     /*
      * 5.3.0
      */
-    "email_verified"                => "Email Verified",
-    "registered_desc"               => "If the user has a password set and is able to login to the frontend.",
-    "new_operator_account_desc"     => "You can send a verification email to let the operator set up their own account or toggle to set a password for them below.",
-    "operator_set_password_desc"    => "Please enter a password below to finish setting up your operator account.",
-    "password_set_success"          => "Password set successfully!",
+    "email_verified"                => "E-Mail verifiziert",
+    "registered_desc"               => "Ob der Benutzer ein Passwort festgelegt hat und sich im Frontend anmelden kann.",
+    "new_operator_account_desc"     => "Sie können eine Verifizierungs-E-Mail senden, damit der Mitarbeiter sein eigenes Konto einrichtet, oder umschalten, um unten ein Passwort für ihn festzulegen.",
+    "operator_set_password_desc"    => "Bitte geben Sie unten ein Passwort ein, um die Einrichtung Ihres Mitarbeiter-Kontos abzuschließen.",
+    "password_set_success"          => "Passwort erfolgreich festgelegt!",
 
     /*
      * 5.7.0
      */
-    "reply_template_cursor_position" => "Use the 'Set Cursor Position' option in the editor to specify where the cursor will be positioned when the user opens the editor to reply to a ticket.",
-    "system_bot_desc"               => "This is a system bot account used for automated actions. You can only edit its name and avatar.",
-    "notification_settings"         => "Notification Settings",
-    "operator_notifications"        => "Operator Notifications",
-    "operator_notifications_desc"   => "Update the notification preferences for the operator account.",
-    "default_department_subscription" => "Default Department Subscription",
-    "default_department_subscription_desc" => "Set the default notification subscription to determine when notifications are sent on ticket events. This subscription will be used for any department that does not have a specific subscription configured.",
-    "department_subscriptions"      => "Department Subscriptions",
-    "department_subscriptions_desc" => "Customise the notification subscription for each department.",
-    "subscription_type"             => "Subscription Type",
-    "subscription_default"          => "Default",
-    "subscription_default_desc"     => "Use the default department subscription for this department.",
-    "subscription_all_activity"     => "All Activity",
-    "subscription_all_activity_desc" => "Receive notifications about all activity in this department.",
-    "subscription_unassigned_and_assigned" => "Unassigned and Assigned",
-    "subscription_unassigned_and_assigned_desc" => "Receive notifications from this department when there are no assignees on the ticket, or when you are assigned. Notifications are also sent when watching the ticket or @mentioned.",
-    "subscription_assigned_only"    => "Assigned Only",
-    "subscription_assigned_only_desc" => "Receive notifications from this department only when assigned to the ticket. Notifications are also sent when watching the ticket or @mentioned.",
-    "subscription_ignore"           => "Ignore",
-    "subscription_ignore_desc"      => "Don't receive notifications for any activity in this department, apart from when watching or @mentioned.",
-    "configure_on_operator_notifications" => "Department-specific notification subscriptions can be set on the <a href=':route' target='_blank'>operator notifications</a> page.",
-    "notification_channel_email"    => "Email",
+    "reply_template_cursor_position" => "Verwenden Sie im Editor die Option 'Cursor-Position festlegen', um anzugeben, wo der Cursor positioniert wird, wenn der Benutzer den Editor öffnet, um auf ein Ticket zu antworten.",
+    "system_bot_desc"               => "Dies ist ein System-Bot-Konto, das für automatisierte Aktionen verwendet wird. Sie können nur dessen Namen und Avatar bearbeiten.",
+    "notification_settings"         => "Benachrichtigungseinstellungen",
+    "operator_notifications"        => "Mitarbeiter-Benachrichtigungen",
+    "operator_notifications_desc"   => "Aktualisieren Sie die Benachrichtigungseinstellungen für das Mitarbeiter-Konto.",
+    "default_department_subscription" => "Standard-Abteilungsabonnement",
+    "default_department_subscription_desc" => "Legen Sie das Standard-Benachrichtigungsabonnement fest, um zu bestimmen, wann Benachrichtigungen bei Ticket-Ereignissen gesendet werden. Dieses Abonnement wird für jede Abteilung verwendet, für die kein spezifisches Abonnement konfiguriert ist.",
+    "department_subscriptions"      => "Abteilungsabonnements",
+    "department_subscriptions_desc" => "Passen Sie das Benachrichtigungsabonnement für jede Abteilung an.",
+    "subscription_type"             => "Abonnementtyp",
+    "subscription_default"          => "Standard",
+    "subscription_default_desc"     => "Das Standard-Abonnement der Abteilung für diese Abteilung verwenden.",
+    "subscription_all_activity"     => "Alle Aktivitäten",
+    "subscription_all_activity_desc" => "Benachrichtigungen über alle Aktivitäten in dieser Abteilung erhalten.",
+    "subscription_unassigned_and_assigned" => "Nicht zugewiesen und zugewiesen",
+    "subscription_unassigned_and_assigned_desc" => "Benachrichtigungen aus dieser Abteilung erhalten, wenn dem Ticket niemand zugewiesen ist oder wenn es Ihnen zugewiesen wird. Benachrichtigungen werden auch gesendet, wenn Sie das Ticket beobachten oder mit @ erwähnt werden.",
+    "subscription_assigned_only"    => "Nur zugewiesen",
+    "subscription_assigned_only_desc" => "Benachrichtigungen aus dieser Abteilung nur erhalten, wenn das Ticket Ihnen zugewiesen ist. Benachrichtigungen werden auch gesendet, wenn Sie das Ticket beobachten oder mit @ erwähnt werden.",
+    "subscription_ignore"           => "Ignorieren",
+    "subscription_ignore_desc"      => "Keine Benachrichtigungen über Aktivitäten in dieser Abteilung erhalten, außer wenn Sie das Ticket beobachten oder mit @ erwähnt werden.",
+    "configure_on_operator_notifications" => "Abteilungsspezifische Benachrichtigungs-Abonnements können auf der Seite <a href=':route' target='_blank'>Mitarbeiter-Benachrichtigungen</a> festgelegt werden.",
+    "notification_channel_email"    => "E-Mail",
     "notification_channel_browser"  => "Browser",
-    "browser_notifications_desc"    => "The system will notify you of certain events through the browser. You can choose between desktop notifications, in-app notifications, or disabling them completely.",
-    "failed_login_notification"     => "Failed Operator Login",
-    "failed_login_notification_desc" => "Notifies you when someone fails to log in to the operator panel or has their IP banned due to multiple failed login attempts.",
-    "notifications_desc"            => "Select the channels on which you would like to be notified about system events, or disable individual notifications completely.",
-    "in_app_notifications"          => "In-App Notifications",
+    "browser_notifications_desc"    => "Das System benachrichtigt Sie über bestimmte Ereignisse über den Browser. Sie können zwischen Desktop-Benachrichtigungen, In-App-Benachrichtigungen oder einer vollständigen Deaktivierung wählen.",
+    "failed_login_notification"     => "Fehlgeschlagene Mitarbeiter-Anmeldung",
+    "failed_login_notification_desc" => "Benachrichtigt Sie, wenn sich jemand nicht im Mitarbeiter-Bereich anmelden kann oder dessen IP aufgrund mehrerer fehlgeschlagener Anmeldeversuche gesperrt wurde.",
+    "notifications_desc"            => "Wählen Sie die Kanäle aus, über die Sie über Systemereignisse benachrichtigt werden möchten, oder deaktivieren Sie einzelne Benachrichtigungen vollständig.",
+    "in_app_notifications"          => "In-App-Benachrichtigungen",
 
+    /*
+     * 6.0.0
+     */
+    "ldap_start_tls_desc"           => "Ob unverschlüsselt verbunden und die Verbindung anschließend per StartTLS aufgewertet werden soll. Wenn Sie das LDAPS-Protokoll verwenden, sollte diese Option nicht genutzt werden.",
+    "ldap_ca_cert"                  => "CA-Zertifikat",
+    "ldap_ca_cert_desc"             => "Optional können Sie die CA-Zertifikatsdatei des LDAP-Servers hochladen. Dies ist nur bei der Verwendung selbstsignierter Zertifikate erforderlich.",
+    "ldap_server"                   => "LDAP Server",
+    "ldap_server_hostname"          => "Hostname",
+    "ldap_server_name_desc"         => "Ein sprechender Name zur Identifizierung dieses LDAP-Servers.",
 );

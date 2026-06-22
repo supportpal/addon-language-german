@@ -5,16 +5,16 @@ return array(
     "customfield"               => "Benutzerdefiniertes Feld|Benutzerdefinierte Felder",
 
     // Options
-    "boolean"                   => "Boolean",
-    "checkbox"                  => "Checkbox",
-    "checklist"                 => "Checklist",
+    "boolean"                   => "Boolescher Wert",
+    "checkbox"                  => "Kontrollkästchen",
+    "checklist"                 => "Checkliste",
     "date"                      => "Datum",
     "multiple"                  => "Multiple Optionen",
     "options"                   => "Optionen",
-    "radio"                     => "Radio Buttons",
+    "radio"                     => "Optionsfelder",
     "rating"                    => "Bewertung (1 bis 5)",
     "text"                      => "Text",
-    "textarea"                  => "Textarea",
+    "textarea"                  => "Textbereich",
 
     "public"                    => "Öffentlich",
     "public_desc"               => "Soll jeder das Feld sehen können, oder nur die Mitarbeiter?",
@@ -42,25 +42,25 @@ return array(
     /*
      * 2.3.0
      */
-    "option_warning"            => "Das löschen existierender Optionen wird alle gespeichert Felder die aktuell diese Option haben löschen",
+    "option_warning"            => "Das Löschen vorhandener Optionen wird alle gespeicherten Felder löschen, die aktuell diese Option haben.",
     "regex_basic_desc"          => "Optional kann die Eingabe mit einer Regular Expression geprüft werden.",
-    "regex_desc"                => "Die Regular Expression ist berücksichtigt Groß und Kleinschreibung, es müssen keinen RegEx Trennzeichen benutzt werden., Schrägstriche werden automatisch codiert. Example: ^[a-z0-9_-]{6,18}$ would enforce that the value is 6-18 characters long and contains only a mix of alphanumeric characters, underscores and dashes.",
+    "regex_desc"                => "Der reguläre Ausdruck berücksichtigt Groß- und Kleinschreibung. Es müssen keine RegEx-Trennzeichen verwendet werden. Schrägstriche werden automatisch maskiert. Beispiel: ^[a-z0-9_-]{6,18}\$ würde erzwingen, dass der Wert 6-18 Zeichen lang ist und nur eine Mischung aus alphanumerischen Zeichen, Unterstrichen und Bindestrichen enthält.",
     "regex_error_message"       => "Überprüfungsfehlermeldung",
-    "regex_error_message_desc"  => "Opitonal kann einen Fehlermeldung für disen Fall angegeben werden, ansonsten wird einen Standardmeldung generiert. Die Meldung wird genauso angezeigt wie sie angegeben wird. Deshalb empfehlen wir den Feldnamen mit anzugeben um die Meldung klar zuordnen zu können.",
+    "regex_error_message_desc"  => "Optional kann eine Fehlermeldung für diesen Fall angegeben werden; ansonsten wird eine Standardmeldung generiert. Die Meldung wird genauso angezeigt wie sie angegeben wird. Deshalb empfehlen wir den Feldnamen mit anzugeben um die Meldung klar zuordnen zu können.",
     "custom_field_values"       => "Benutzerdefinierte Feldwerte",
     "depends_on"                => "hängt ab von",
-    "depends_on_desc"           => "Wenn aktiviert wird das Feld nur angezeigt wenn der User den angegbenen Wert ausgewählt hat. Die Marken und Abteilungssicherheit wird vom bezogenen Feld vererbt.",
-    "select_option"             => "Wähle eine Option...",
+    "depends_on_desc"           => "Wenn aktiviert, wird das Feld nur angezeigt, wenn der Benutzer den angegebenen Wert ausgewählt hat. Die Marken und Abteilungssicherheit wird vom bezogenen Feld vererbt.",
+    "select_option"             => "Wählen Sie eine Option...",
     "purge"                     => "löschen",
-    "encrypted_desc"            => "Soll das benutzerdefinierte Feld verschlüsselt in der Datenbank gespeichert werden. Diese Einstellung kann im nachhineinnicht mehr geändert werden.",
+    "encrypted_desc"            => "Soll das benutzerdefinierte Feld verschlüsselt in der Datenbank gespeichert werden? Diese Einstellung kann nachträglich nicht mehr geändert werden.",
 
     /*
      * 2.3.1
      */
-    "required_desc"             => "Muss das benutzerdefinierte Feld ausgfüllt sein. Für checkbox, checklist oder multile Option type, muss der Benutzer mindestens eine option ausgewählt haben.",
+    "required_desc"             => "Muss das benutzerdefinierte Feld ausgefüllt sein? Für Checkbox-, Checklisten- oder mehrfache Optionen muss der Benutzer mindestens eine Option ausgewählt haben.",
 
     /*
      * 3.3.0
      */
-    "encrypted_value"           => "** ENCRYPTED **",
+    "encrypted_value"           => "** VERSCHLÜSSELT **",
 );

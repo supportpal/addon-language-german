@@ -6,34 +6,34 @@ return array(
      * 2.4.0
      */
     "new_ticket"            => "Neues Ticket wurde eröffnet",
-    "user_reply"            => "Benutzer hat geantworted",
-    "operator_reply"        => "Operator hat geantworted",
-    "operator_note"         => "Operator hat einen Notiz erstellt",
-    "operator_forward"      => "Operator hat weitergeleitet",
+    "user_reply"            => "Benutzer hat geantwortet",
+    "operator_reply"        => "Mitarbeiter hat geantwortet",
+    "operator_note"         => "Mitarbeiter hat eine Notiz erstellt",
+    "operator_forward"      => "Mitarbeiter hat weitergeleitet",
     "update_department"     => "Abteilung wurde geändert",
     "update_status"         => "Status wurde geändert",
     "update_priority"       => "Priorität wurde geändert",
     "update_tags"           => "Tags geändert",
-    "update_assigned"       => "Zugewiesener Operator wurde geändert",
+    "update_assigned"       => "Zugewiesene Mitarbeiter wurden geändert",
     "update_user"           => "Benutzer wurde geändert",
     "update_brand"          => "Marke wurde geändert",
     "update_subject"        => "Betreff wurde geändert",
-    "update_watching"       => "beobachtende Operatoren wurden geändert",
+    "update_watching"       => "Beobachtende Mitarbeiter wurden geändert",
 
     /*
      * 5.0.0
      */
-    "update_custom_field"   => "Custom field updated",
-    "operator_draft"        => "Operator draft updated",
-    "update_cc"             => "CC email addresses updated",
-    "update_due_time"       => "Due time updated",
-    "update_sla_plan"       => "SLA plan updated",
-    "update_locked"         => "Ticket locked",
-    "update_unlocked"       => "Ticket unlocked",
+    "update_custom_field"   => "Benutzerdefiniertes Feld aktualisiert",
+    "operator_draft"        => "Mitarbeiter-Entwurf aktualisiert",
+    "update_cc"             => "CC-E-Mail-Adressen aktualisiert",
+    "update_due_time"       => "Fälligkeitszeit aktualisiert",
+    "update_sla_plan"       => "SLA-Plan aktualisiert",
+    "update_locked"         => "Ticket gesperrt",
+    "update_unlocked"       => "Ticket entsperrt",
 
     /*
      * 5.1.0
      */
-    "update_message"        => "Message updated",
+    "update_message"        => "Nachricht aktualisiert",
 
 );

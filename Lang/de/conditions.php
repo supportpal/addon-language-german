@@ -19,7 +19,7 @@ return array(
     "ticket_message_content"            => "Nachrichteninhalt des Tickets",
     "ticket_message_count"              => "Anzahl der Nachrichten im Ticket",
     "ticket_priority"                   => "Priorität des Tickets",
-    "ticket_sla_plan"                   => "SLA-PLan des Tickets",
+    "ticket_sla_plan"                   => "SLA-Plan des Tickets",
     "ticket_status"                     => "Status des Tickets",
     "ticket_subject"                    => "Betreff des Tickets",
     "ticket_tag"                        => "Stichwort des Tickets",
@@ -41,10 +41,10 @@ return array(
     "hours_since_last_reply_exc_notes"  => "Stunden seit der letzten Antwort (ohne Notizen)",
     "hours_until_due"                   => "Stunden bis es abgelaufen ist",
     "last_ticket_replier_exc_notes"     => "Letzter Beantworter des Tickets (ohne Notizen)",
-    "ticket_department_email"           => "Ticket Abteilungs Email",
+    "ticket_department_email"           => "Ticket Abteilungs-E-Mail",
     "ticket_has_attachments"            => "Ticket hat Anhänge",
     "ticket_has_drafts"                 => "Ticket hat Entwürfe",
-    "ticket_locked"                     => "Ticket ist gesperrt.",
+    "ticket_locked"                     => "Ticket gesperrt",
     "ticket_merged"                     => "Ticket wurde zusammengeführt",
     "ticket_message_count_exc_notes"    => "Ticket Anzahl Nachrichten (ohne Notizen)",
     "ticket_note_count"                 => "Ticket Anzahl Notizen",
@@ -59,10 +59,10 @@ return array(
     /*
      * 2.3.0
      */
-    "ticket_cc"                         => "Ticket CC",
-    "ticket_custom_field"               => "Ticket Kundendefiniertes Feld",
-    "user_custom_field"                 => "Benutzer Kundendefiniertes",
-    "user_organisation_custom_field"    => "Benutzerorganisation Kundendefiniertes",
+    "ticket_cc"                         => "Ticket-CC",
+    "ticket_custom_field"               => "Benutzerdefiniertes Feld des Tickets",
+    "user_custom_field"                 => "Benutzerdefiniertes Feld des Benutzers",
+    "user_organisation_custom_field"    => "Benutzerdefiniertes Feld der Benutzerorganisation",
     "user_organisation"                 => "Benutzerorganisation Name",
     "user_organisation_brand"           => "Benutzerorganisation Marke",
     "user_organisation_country"         => "Benutzerorganisation Land",
@@ -74,7 +74,7 @@ return array(
      * 2.4.0
      */
     "watching_operator"                 => "Beobachtende Operatoren",
-    "exact_search_quotes"               => "Eine exakte übereinstimmung er hält man mit Anführungszeichen: \"Suchbegriff\".",
+    "exact_search_quotes"               => "Für eine exakte Suche nach dem Ausdruck Anführungszeichen verwenden, z. B. \"Suchbegriff\".",
 
     /*
      * 2.4.1
@@ -84,7 +84,7 @@ return array(
     /*
      * 3.0.0
      */
-    "user_2fa_enabled"                  => "Benuzter 2FA aktiviert",
+    "user_2fa_enabled"                  => "Benutzer 2FA aktiviert",
     "article_type"                      => "Artikel Typ",
     "article_brand"                     => "Artikel Marke",
 
@@ -111,8 +111,8 @@ return array(
     /*
      * 5.0.0
      */
-    "user_email_verified"               => "User email verified",
-    "ticket_has_followup"               => "Ticket has follow up",
+    "user_email_verified"               => "Benutzer-E-Mail verifiziert",
+    "ticket_has_followup"               => "Ticket hat Nachfass",
 
     /*
      * 5.3.0
