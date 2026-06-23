@@ -44,7 +44,7 @@ return array(
      */
     "option_warning"            => "Das Löschen vorhandener Optionen wird alle gespeicherten Felder löschen, die aktuell diese Option haben.",
     "regex_basic_desc"          => "Optional kann die Eingabe mit einer Regular Expression geprüft werden.",
-    "regex_desc"                => "Der reguläre Ausdruck berücksichtigt Groß- und Kleinschreibung. Es müssen keine RegEx-Trennzeichen verwendet werden. Schrägstriche werden automatisch maskiert. Beispiel: ^[a-z0-9_-]{6,18}\$ würde erzwingen, dass der Wert 6-18 Zeichen lang ist und nur eine Mischung aus alphanumerischen Zeichen, Unterstrichen und Bindestrichen enthält.",
+    "regex_desc"                => "Der reguläre Ausdruck berücksichtigt Groß- und Kleinschreibung. Es müssen keine RegEx-Trennzeichen verwendet werden. Schrägstriche werden automatisch maskiert. Beispiel: ^[a-z0-9_-]{6,18}$ würde erzwingen, dass der Wert 6-18 Zeichen lang ist und nur eine Mischung aus alphanumerischen Zeichen, Unterstrichen und Bindestrichen enthält.",
     "regex_error_message"       => "Überprüfungsfehlermeldung",
     "regex_error_message_desc"  => "Optional kann eine Fehlermeldung für diesen Fall angegeben werden; ansonsten wird eine Standardmeldung generiert. Die Meldung wird genauso angezeigt wie sie angegeben wird. Deshalb empfehlen wir den Feldnamen mit anzugeben um die Meldung klar zuordnen zu können.",
     "custom_field_values"       => "Benutzerdefinierte Feldwerte",
