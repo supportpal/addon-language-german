@@ -199,7 +199,7 @@ return array(
     "admin_folder_desc"         => "Hier kann der Pfad zum Mitarbeiterlogin angepasst werden. Wir empfehlen die Änderung.",
     "enable_ssl"                => "SSL aktivieren",
     "maintenance_mode"          => "Wartungs-Modus",
-    "maintenance_mode_desc"     => "Hierdurch wird das Support-Portal deaktiviert und ein Wartungshinweis angezeigt. Sie finden die Vorlage unter: \\\"resources/templates/frontend/[template]/core/maintenance.twig\\\" .",
+    "maintenance_mode_desc"     => "Hierdurch wird das Support-Portal deaktiviert und ein Wartungshinweis angezeigt. Sie finden die Vorlage unter: resources/templates/frontend/[template]/core/maintenance.twig",
     "default_user_country"      => "Land",
     "default_user_country_desc" => "Voreinstellung bei der Benutzerregistrierung.",
     "system_timezone"           => "Zeitzone",
@@ -209,7 +209,6 @@ return array(
     "time_format"               => "Zeitformat",
     "time_format_desc"          => "Voreinstellung für das System.",
     "simpleauth_key"            => "SimpleAuth-Schlüssel",
-    "simpleauth_key_desc"       => "Der Single-Sign-On Schlüssel. Mindestlänge 16 Zeichen.",
     "simpleauth_operators"      => "Für Mitarbeiter aktivieren",
     "base_url"                  => "System-URL",
     "base_url_desc"             => "Geben Sie vollständige Adresse des Systems an.",
@@ -827,5 +826,10 @@ return array(
     "debug_mode_desc"           => "Aktiviert die erweiterte Debug-Protokollierung. Wenn aktiviert, werden zusätzliche Diagnoseinformationen in die Protokolldateien geschrieben, die über Werkzeuge -> Protokolle -> Protokolldatei-Manager heruntergeladen werden können.",
     "debug_mode_warning"        => "Der Debug-Modus sollte nur vorübergehend aktiviert werden, um das Entstehen großer Protokolldateien zu vermeiden.",
     "debug_mode_error"          => "App-Debug sollte in der Produktivumgebung nicht aktiviert sein und zeigt Benutzern Fehler an. Setzen Sie APP_DEBUG auf false. Verwenden Sie stattdessen die Debug-Modus-Option in den allgemeinen Einstellungen.",
+
+    /*
+     * 6.0.2
+     */
+    "simpleauth_key_desc"       => "Der Single-Sign-On Schlüssel. Mindestlänge 32 Zeichen.",
 
 );

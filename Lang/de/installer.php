@@ -125,8 +125,8 @@ return array(
     "error_and_empty_database"  => "Es ist ein Fehler aufgetreten. Möglicherweise müssen Sie die Datenbank leeren, bevor Sie erneut starten.",
     "login_with_details"        => "Sie können sich mit den zuvor angegebenen Daten anmelden.",
     "command_not_available"     => "Befehl nicht verfügbar. Falls Sie der Meinung sind, dass dies fälschlicherweise angezeigt wird, führen Sie bitte 'php artisan cache:clear' aus und wiederholen Sie diesen Befehl anschließend.",
-    "read_upgrade_guide"        => "Unser Upgrade-Leitfaden enthält nützliche Informationen zu wesentlichen Änderungen und bewährten Vorgehensweisen für das Upgrade:\\nhttps://docs.supportpal.com/current/Upgrade+Guide",
-    "confirm_backup_taken"      => "[WARNUNG] Stellen Sie sicher, dass Sie ein Backup Ihrer SupportPal-Datenbank und Anwendungsdateien erstellt haben, bevor Sie fortfahren.\\\\nBitte bestätigen Sie, dass Sie ein Backup erstellt, dessen Integrität überprüft haben und bereit sind fortzufahren.",
+    "read_upgrade_guide"        => "Unser Upgrade-Leitfaden enthält nützliche Informationen zu wesentlichen Änderungen und bewährten Vorgehensweisen für das Upgrade:\nhttps://docs.supportpal.com/current/Upgrade+Guide",
+    "confirm_backup_taken"      => "[WARNUNG] Stellen Sie sicher, dass Sie ein Backup Ihrer SupportPal-Datenbank und Anwendungsdateien erstellt haben, bevor Sie fortfahren.\nBitte bestätigen Sie, dass Sie ein Backup erstellt, dessen Integrität überprüft haben und bereit sind fortzufahren.",
     "error_and_revert_database" => "Es ist ein Fehler aufgetreten. Bitte stellen Sie die Datenbank aus Ihrem Backup wieder her, bevor Sie erneut starten.",
 
     /*
