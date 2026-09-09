@@ -210,4 +210,10 @@ return array(
     "update_failed"             => "App-Update fehlgeschlagen.",
     "attempting_to_restore"     => "Es wird versucht, aus dem Backup wiederherzustellen...",
 
+    /*
+     * 6.1.0
+     */
+    "freetype_support"          => "FreeType Support",
+    "upgrade_in_progress"       => "A system upgrade is in progress. The help desk will be unavailable until an administrator completes the upgrade. Please try again later.",
+
 );

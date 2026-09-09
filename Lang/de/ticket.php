@@ -261,7 +261,6 @@ return array(
     "no_departments_found"      => "Keine Abteilung gefunden. Klicken Sie <a href=':route'>hier</a> um eine zu erstellen.",
     "no_operators_found"        => "Keine Mitarbeiter gefunden. Klicken Sie <a href=':route'>hier</a> um einen zu erstellen.",
     "change_priority"           => "Priorität wechseln",
-    "add_tag"                   => "Tag hinzufügen",
 
     "unlock"                    => "Entsperren",
     "merged"                    => "Zusammengeführt",
@@ -276,7 +275,6 @@ return array(
 
     "pause_duetime_desc"        => "Falls das Ticket einem aktiven SLA Plan zugewiesen ist, pausiere die Ablaufzeit bis zur ersten Nachverfolgung. Die Ablaufzeit startet mit der nächsten Notiz oder Antwort zum Ticket (Inklusive der Nachverfolgung).",
 
-    "add_cc"                    => "Blindempfänger hinzufügen (CC)",
     "reply_above_line"          => "Bitte antworten Sie oberhalb dieser Linie",
 
     "email_settings"            => "Email Einstellungen",
@@ -303,7 +301,6 @@ return array(
     "associate_response_tag"    => "Textbaustein einem Tag zuweisen...",
     "canned_response_tags_desc" => "Fügen Sie Tags hinzu um einen Textbaustein als Antwort finden zu können.",
     "unassign_operator"         => "Mitarbeiter entfernen",
-    "remove_tag"                => "Tag entfernen",
     "message_clipped"           => "[Nachricht abgeschnitten]",
     "view_entire_message"       => "Gesamte Nachricht anzeigen",
     "no_custom_fields"          => "Keine Benutzerdefinierten Felder gefunden. Klicken Sie <a href=':route'>hier</a> um welche zu erstellen.",
@@ -412,7 +409,6 @@ return array(
     "forwarded_to"              => "Weiterleiten An",
     "new_operator_reply"        => "Neue Operator Antwort",
     "new_user_reply"            => "Neue Benutzer Antwort",
-    "add_bcc"                   => "Blindkopie (BCC) hinzufügen",
     "at_least_one_recipient"    => "Definieren Sie mindestens einen Empfänger",
     "forwarded_message"         => "------------------- Weitergeleitete Nachricht -------------------",
 
@@ -626,5 +622,10 @@ return array(
     "timeline_merging"          => "Zusammenführen, Verknüpfen & Aufteilen",
     "max_requests_desc"         => "Legt die maximale Anzahl verfügbarer Tokens fest, bevor ein Benutzer ratenbegrenzt wird. Die Ratenbegrenzung funktioniert über ein Token-System: Das Erstellen eines neuen Tickets kostet 3 Tokens, das Beantworten eines bestehenden Tickets 1 Token. Die Gesamtzahl der verfügbaren Tokens wird nach Ablauf der Decay-Zeit zurückgesetzt.",
     "decay_time_desc"           => "Die Anzahl der Minuten, bis die verfügbaren Tokens zurückgesetzt werden.",
+
+    /*
+     * 6.1.0
+     */
+    "change_user"               => "Change User",
 
 );
