@@ -363,4 +363,9 @@ return array(
     "ticket_attachment_rejected"        => "Anhang/Anhänge :files wurden aufgrund eines ungültigen Dateityps für Ticket #:rel blockiert.",
     "timeline_ticket_attachment_rejected" => "Anhang/Anhänge :files wurden aufgrund eines ungültigen Dateityps blockiert",
 
+    /*
+     * 6.1.0
+     */
+    "system_update_started"             => "Started system update to version :rel.",
+
 );

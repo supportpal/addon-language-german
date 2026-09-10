@@ -181,6 +181,11 @@ return array(
     "department_has_a_priority"  => "Die Abteilung(en) :departments sind öffentlich und müssen mindestens einer Priorität zugewiesen werden.",
 
     /*
+     * 6.1.0
+     */
+    'uuid'                      => 'The :attribute field must be a valid UUID.',
+
+    /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
     |--------------------------------------------------------------------------
