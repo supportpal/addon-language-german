@@ -58,9 +58,4 @@ return array(
      * 2.3.1
      */
     "required_desc"             => "Muss das benutzerdefinierte Feld ausgefüllt sein? Für Checkbox-, Checklisten- oder mehrfache Optionen muss der Benutzer mindestens eine Option ausgewählt haben.",
-
-    /*
-     * 3.3.0
-     */
-    "encrypted_value"           => "** VERSCHLÜSSELT **",
 );
